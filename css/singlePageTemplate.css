@@ -35,16 +35,18 @@ body {
   justify-content: center;
   height: 100%;
 	width: calc(100% - 200px);
+	margin-left: 200px;
   background: #ccc;
   background: linear-gradient(to bottom, #eeeeee 0%,#B7EAE0 100%);
-	overflow: scroll;
+	/*overflow: scroll;*/
 }
 .side {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: -webkit-sticky;
-  position: sticky;
+  position: fixed;
+  top: 0px;
+	left: 0px;
   top: 0px;
   width: 200px;
   height: 100%;
@@ -339,6 +341,7 @@ footer {
 	display: inline;
   align-items: center;
   justify-content: center;
+	margin-left: 0px;
   height: 100%;
 	width: 100%;
   background: #ccc;
@@ -353,6 +356,7 @@ footer {
   height: 100%;
   color: #000000;
   background: #ffffff;
+	position: static;
 }
 .logo {
 	width: 100%;
@@ -468,6 +472,7 @@ nav ul li {
 	display: inline;
   align-items: center;
   justify-content: center;
+	margin-left: 0px;
   height: 100%;
 	width: 100%;
   background: #ccc;
@@ -482,6 +487,7 @@ nav ul li {
   height: 100%;
   color: #000000;
   background: #ffffff;
+	position: static;
 }
 .logo {
 	width: 100%;

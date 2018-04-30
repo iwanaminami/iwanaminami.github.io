@@ -5,7 +5,7 @@ html {
 /* Body */
 body {
 	/*font-family: source-sans-pro;*/
-	font-family: source-sans-pro,'Noto Sans Japanese';
+	font-family: 'Avenir Next',source-sans-pro,'Noto Sans Japanese';
 	background-color: #f2f2f2;
 	margin-top: 0px;
 	margin-right: 0px;
@@ -30,14 +30,14 @@ body {
 }
 
 .main {
-  flex: 1 0 auto;
+  /*flex: 1 0 auto;*/
   align-items: center;
   justify-content: center;
   height: 100%;
 	width: calc(100% - 200px);
 	margin-left: 200px;
-  background: #ccc;
-  background: linear-gradient(to bottom, #eeeeee 0%,#B7EAE0 100%);
+  background: #FFFFFF;
+  /*background: linear-gradient(to bottom, #eeeeee 0%,#B7EAE0 100%);*/
 	/*overflow: scroll;*/
 }
 .side {
@@ -344,8 +344,6 @@ footer {
 	margin-left: 0px;
   height: 100%;
 	width: 100%;
-  background: #ccc;
-  background: linear-gradient(to bottom, #eeeeee 0%,#B7EAE0 100%);
 }
 .side {
 	display: inline;
@@ -475,8 +473,6 @@ nav ul li {
 	margin-left: 0px;
   height: 100%;
 	width: 100%;
-  background: #ccc;
-  background: linear-gradient(to bottom, #eeeeee 0%,#B7EAE0 100%);
 }
 .side {
 	display: inline;

@@ -33,10 +33,12 @@ body {
   /*flex: 1 0 auto;*/
   align-items: center;
   justify-content: center;
-  height: 100%;
+	height: auto;
+  min-height: 100%;
 	width: calc(100% - 200px);
 	margin-left: 200px;
   background: #FFFFFF;
+	overflow: visible;
   /*background: linear-gradient(to bottom, #eeeeee 0%,#B7EAE0 100%);*/
 	/*overflow: scroll;*/
 }
@@ -47,7 +49,6 @@ body {
   position: fixed;
   top: 0px;
 	left: 0px;
-  top: 0px;
   width: 200px;
   height: 100%;
   color: #000000;
@@ -92,7 +93,6 @@ header a {
 	color: #fff;
 	text-align: center;
 	margin-left: 0px;
-	margin-top: 5px;
 	margin-top: 5px;
 	height: 50px;
 	width: 100%;
@@ -221,6 +221,7 @@ ul li:hover a {
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
+	width: 100%;
 }
 .parallax {
 	color: #FFFFFF;
@@ -231,17 +232,22 @@ ul li:hover a {
 	margin-top: 0px;
 }
 .news_table {
-	width; 100%;
-	border; 0;
-	cellspacing; 0;
-	cellpadding; 0;
+	width: 100%;
+	border: 0;
+	cellspacing: 0;
+	cellpadding: 0;
+	float: right;
+	text-align: justify;
+}
+.news_cell{
+	vertical-align: top;
 }
 .parallax_description {
 	color: #FFFFFF;
 	text-align: right;
 	padding-right: 100px;
 	padding-bottom: 20px;
-	width: 60%;
+	width: 40%;
 	height: 150px;
 	float: right;
 	font-weight: lighter;
@@ -571,17 +577,18 @@ nav ul li {
 	width: 100%;
 	font-size: 18px;
 }
-.parallax_description {
+
+	.parallax_description {
 	padding-top: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
+	width: 90%;
 	margin-top: 30%;
 	margin-right: 0px;
 	margin-bottom: 0px;
-	margin-left: 0px;
+	margin-left: 20px;
 	float: none;
-	width: 100%;
 	text-align: center;
 }
 .thumbnail {
@@ -597,17 +604,10 @@ nav ul li {
 	padding-left: 0px;
 	padding-top: 20%;
 }
-.parallax_description {
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	width: 100%;
-	padding-top: 30px;
-}
+
 .banner {
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 .footer_column {
 	width: 100%;
@@ -634,6 +634,9 @@ nav ul li {
 	padding-left: 0px;
 	text-align: center;
 }
+	.parallax_description {
+		width: 70%;
+	}
 .banner {
 	margin-top: 0px;
 	padding-top: 0px;

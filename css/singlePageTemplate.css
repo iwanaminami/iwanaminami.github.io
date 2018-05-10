@@ -139,6 +139,9 @@ ul li:hover a {
 /* Hero Section */
 .hero {
 	background-color: #B3B3B3;/*#B3B3B3*/
+	background-image: url(../images/topphoto.jpg);
+	background-size: cover;
+	background-position: center;
 	padding-top: 150px;
 	padding-bottom: 150px;
 	width: 100%
@@ -283,6 +286,7 @@ footer .footer_column p {
 	height: auto;
 	max-width: 400px;
 	max-height: 200px;
+	object-fit: cover;
 }
 footer .footer_column p {
 	padding-left: 30px;
@@ -294,6 +298,7 @@ footer .footer_column p {
 	margin-right: 20px;
 }
 .button {
+	display: inline-block;
 	width: 200px;
 	margin-top: 40px;
 	margin-right: auto;
@@ -307,11 +312,21 @@ footer .footer_column p {
 	vertical-align: middle;
 	border-radius: 0px;
 	text-transform: uppercase;
+	text-decoration: none;
 	font-weight: bold;
 	letter-spacing: 2px;
 	border: 3px solid #FFFFFF;
 	color: #FFFFFF;
 	transition: all 0.3s linear;
+}
+.button2 {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #FFFFFF;
+    border: 3px solid #FFFFFF;
+    border-radius: 3px;
+    transition: .4s;
 }
 .button:hover {
 	background-color: #FEFEFE;
@@ -336,6 +351,7 @@ footer .footer_column p {
 	margin-bottom: 0px;
 	background-image: url(../images/pattern.png);
 	background-repeat: repeat;
+	text-align: center;
 }
 footer {
 	display: inline-block;
@@ -365,8 +381,8 @@ footer {
   align-items: center;
   justify-content: center;
   top: 0px;
-  width: 300px;
-  height: 100%;
+  width: 100%;
+  height: 300px;
   color: #000000;
   background: #ffffff;
 	position: static;
@@ -403,6 +419,7 @@ footer {
 	background: #52bad5;
 }
 header {
+	padding-top: 5px;
 	height: auto;
 }
 header nav ul {
@@ -584,7 +601,7 @@ nav ul li {
 	padding-bottom: 0px;
 	padding-left: 0px;
 	width: 90%;
-	margin-top: 30%;
+	margin-top: 30px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 20px;

@@ -24,7 +24,7 @@ body {
 	background-color: #FFFFFF;
 }
 .content {
-  display: flex;
+  /*display: flex;*/
   padding: 0px 0;
 	height: 100%;
 }
@@ -48,7 +48,7 @@ body {
   justify-content: center;
   position: fixed;
   top: 0px;
-	left: 0px;
+  left: 0px;
   width: 200px;
   height: 100%;
   color: #000000;
@@ -67,7 +67,7 @@ body {
 header {
 	width: 100%;
 	height: 100%;
-	background-color: #52bad5;
+	background-color: #ffffff;
 	border-bottom: 2px solid #2C9AB7;
 	text-align: center;
 	padding-top: 30px;
@@ -78,7 +78,7 @@ header {
 	display: block;
 }
 .logo {
-	color: #fff;
+	color: #2C9AB7;
 	font-weight: bold;
 	text-align: undefined;
 	width: 100%;
@@ -128,35 +128,63 @@ ul li:hover a {
 	color: #2C9AB7;
 }
 .hero_header {
-	color: #FFFFFF;
-	text-align: center;
+	color: #000000;
+	text-align: left;
 	margin-top: 0px;
 	margin-right: 0px;
 	margin-bottom: 4px;
 	margin-left: 0px;
-	letter-spacing: 4px;
+	letter-spacing: 0.2vw;
+	line-height: 5.2vw;
+	font-size: 5vw;
 }
 /* Hero Section */
 .hero {
-	background-color: #B3B3B3;/*#B3B3B3*/
-	background-image: url(../images/topphoto.jpg);
-	background-size: cover;
-	background-position: center;
-	padding-top: 150px;
-	padding-bottom: 150px;
-	width: 100%
+	background-color: #FFFFFF;/*#B3B3B3*/
+	background-image: url(../images/top.png);
+	background-size: 60% auto;
+	background-position: left;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	min-height: 400px;
+	display: flex;
 }
+.mainlogo{
+	/*float: left;*/
+	width: 50%;
+	height: auto;
+}
+.blank_box {
+	width: 65%;
+	height: 100%;
+}
+.hero_box {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 35%;
+	height: 100%;
+}
+.hero_inline_box {
+	width: 100%;
+}
+
 .light {
 	font-weight: bold;
-	color: #717070;
+	color: #2C9AB7;
 }
 .tagline {
-	text-align: center;
-	color: #FFFFFF;
+	text-align: left;
+	color: #000000;
 	margin-top: 4px;
-	font-weight: lighter;
+	font-weight: bold;
 	text-transform: uppercase;
-	letter-spacing: 1px;
+	letter-spacing: 0.1vw;
+	font-size: 1.5vw;
+}
+.tagline_blue {
+	color: #2C9AB7;
 }
 /* About Section */
 .text_column {

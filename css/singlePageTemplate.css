@@ -150,11 +150,6 @@ ul li:hover a {
 	min-height: 400px;
 	display: flex;
 }
-.mainlogo{
-	/*float: left;*/
-	width: 50%;
-	height: auto;
-}
 .blank_box {
 	width: 65%;
 	height: 100%;
@@ -462,6 +457,30 @@ nav ul li {
 	width: 100%;
 	text-align: center;
 }
+.hero {
+	background-image: none;
+	height: 50%;
+	min-height: 250px;
+}
+.blank_box {
+	display: none;
+}
+.hero_box {
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.hero_header {
+	letter-spacing: 0.2vw;
+	line-height: 14.2vw;
+	font-size: 14vw;
+}
+.tagline {
+	margin-top: 20px;
+	letter-spacing: 0.2vw;
+	line-height: 5.2vw;
+	font-size: 5vw;
+}
 .text_column {
 	width: 100%;
 	text-align: center;
@@ -507,15 +526,7 @@ nav ul li {
 	background-color: #2D9AB7;
 	background-image: none;
 }
-.tagline {
-	margin-top: 20px;
-	line-height: 22px;
-}
-.hero_header {
-	padding-left: 2%;
-	padding-right: 2%;
-	text-align: center;
-}
+
 }
 
 /* Small Tablets */
@@ -593,6 +604,30 @@ nav ul li {
 	text-align: center;
 	padding-top: 8px;
 	padding-bottom: 8px;
+}
+.hero {
+	background-image: none;
+	height: 50%;
+	min-height: 250px;
+}
+.blank_box {
+	display: none;
+}
+.hero_box {
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.hero_header {
+	letter-spacing: 0.2vw;
+	line-height: 14.2vw;
+	font-size: 14vw;
+}
+.tagline {
+	margin-top: 20px;
+	letter-spacing: 0.2vw;
+	line-height: 5.2vw;
+	font-size: 5vw;
 }
 .text_column {
 	width: 100%;

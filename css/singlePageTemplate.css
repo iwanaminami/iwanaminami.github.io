@@ -384,7 +384,7 @@ footer {
 }
 
 /* Mobile */
-@media (max-width: 320px) {
+@media (max-width: 420px) {
 .content {
 	display: inline;
   padding: 0px 0;
@@ -460,7 +460,7 @@ nav ul li {
 .hero {
 	background-image: none;
 	height: 50%;
-	min-height: 250px;
+	min-height: 300px;
 }
 .blank_box {
 	display: none;
@@ -530,7 +530,7 @@ nav ul li {
 }
 
 /* Small Tablets */
-@media (min-width: 321px)and (max-width: 767px) {
+@media (min-width: 421px)and (max-width: 767px) {
 .content {
 	display: inline;
   padding: 0px 0;

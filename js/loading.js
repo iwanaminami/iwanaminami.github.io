@@ -1,10 +1,23 @@
 $(function() {
- var h = $(window).height(); //ブラウザウィンドウの高さを取得
-$('#main-contents').css('display','none'); //初期状態ではメインコンテンツを非表示
-$('#loader-bg ,#loader').height(h).css('display','block'); //ウィンドウの高さに合わせでローディング画面を表示
+  var h = $(window).height();
+ 
+  $('#wrap').css('display','none');
+  $('#loader-bg ,#loader').height(h).css('display','block');
 });
-$(window).load(function () {
-$('#loader-bg').delay(900).fadeOut(800); //$('#loader-bg').fadeOut(800);でも可
-$('#loader').delay(600).fadeOut(300); //$('#loader').fadeOut(300);でも可
-$('#main-contents').css('display', 'block'); // ページ読み込みが終わったらメインコンテンツを表示する
+ 
+$(window).on('load', function() { //全ての読み込みが完了したら実行
+  $('#loader-bg').delay(2000).fadeOut(800);
+  $('#loader').delay(1800).fadeOut(300);
+  $('#wrap').css('display', 'block');
 });
+ 
+//10秒たったら強制的にロード画面を非表示
+$(function(){
+  setTimeout('stopload()',10000);
+});
+ 
+function stopload(){
+  $('#wrap').css('display','block');
+  $('#loader-bg').delay(900).fadeOut(800);
+  $('#loader').delay(600).fadeOut(300);
+}

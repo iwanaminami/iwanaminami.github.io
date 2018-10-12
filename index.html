@@ -27,6 +27,7 @@
 	<script type="text/javascript" src="js/scroll.js"></script>
 	<script type="text/javascript" src="js/navactive.js"></script>
 	<script type="text/javascript" src="js/buttontotop.js"></script>
+	<script type="text/javascript" src="js/loading.js"></script>
 	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico?20180424_2">
 	<link rel="shortcut icon" type="image/png" href="favicon.png?20180424_2">
 	<link rel="apple-touch-icon" type="image/png" href="favicon.png?20180424_3">
@@ -38,8 +39,14 @@
     <![endif]-->
 </head>
 <body>
-	<!-- Main Container -->
-	<div class="container">
+	<div id="loading-bg">
+		<div id="loading">
+			<img src="img/img-loading.gif" width="80" height="80" alt="Now Loading..." />
+			<p>Now Loading...</p>
+		</div>
+	</div>
+	<div id="main-contents">
+		<div class="container">
 		
 		<!-- side div -->
 		<div class="side">
@@ -331,6 +338,9 @@
 		<div id="contact_button"><a href="#contact"></a></div>
 		
 	</div>
+	</div>
+	<!-- Main Container -->
+	
 <!-- Main Container Ends -->
 </body>
 </html>

@@ -9,16 +9,11 @@
   		gtag('js', new Date());
 
   		gtag('config', 'UA-85165915-4');
-		window.addEventListener('load', function() {
-  			if ('serviceWorker' in navigator) {
-    			navigator.serviceWorker.register("/serviceWorker.js")
-      			.then(function(registration) {
-        			console.log("serviceWorker registed.");
-      			}).catch(function(error) {
-        			console.warn("serviceWorker error.", error);
-      			});
-  			}
-		});
+		if ('serviceWorker' in navigator) {
+
+			  // register service worker
+			  navigator.serviceWorker.register('/service-worker.js');
+		}
 	</script>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">

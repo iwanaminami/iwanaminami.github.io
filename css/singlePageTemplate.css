@@ -225,12 +225,12 @@ nav ul a li h4 {
 }
 .nav-icon p::before{
   font-family: FontAwesome;
-  font-size: 25px;
+  font-size: 20px;
   color: #fff;
   position: absolute;
   width: 25px;
   height: 25px;
-  top: 0;
+  top: -5px;
   bottom: 0;
   right: 0;
   left: 0;
@@ -593,12 +593,12 @@ footer {
 #page_top a::before{
   font-family: FontAwesome;
   content: '\f015';
-  font-size: 25px;
+  font-size: 20px;
   color: #fff;
   position: absolute;
   width: 25px;
   height: 25px;
-  top: 0;
+  top: -5px;
   bottom: 0;
   right: 0;
   left: 0;
@@ -626,12 +626,12 @@ footer {
 #contact_button a::before{
   font-family: FontAwesome;
   content: '\f0e0';
-  font-size: 25px;
+  font-size: 20px;
   color: #fff;
   position: absolute;
   width: 25px;
   height: 25px;
-  top: 0;
+  top: -5px;
   bottom: 0;
   right: 0;
   left: 0;
@@ -659,12 +659,12 @@ footer {
 #about_button a::before{
   font-family: FontAwesome;
   content: '\f2b9';
-  font-size: 25px;
+  font-size: 20px;
   color: #fff;
   position: absolute;
   width: 25px;
   height: 25px;
-  top: 0;
+  top: -5px;
   bottom: 0;
   right: 0;
   left: 0;

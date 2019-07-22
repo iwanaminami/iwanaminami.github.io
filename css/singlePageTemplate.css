@@ -590,6 +590,7 @@ footer {
   height: 50px;
   text-decoration: none;
 }
+
 #page_top a::before{
   font-family: FontAwesome;
   content: '\f015';

@@ -1,0 +1,15 @@
+---
+layout: post
+title: "第15回生物数学の理論とその応用にて発表"
+description: 第15回生物数学の理論とその応用にて発表を行いました。
+date: 2018-09-15 01:28:37 +0900
+date_news: "2018.09.15"
+last_modified_at: 2019-07-20 01:28:37 +0900
+categories: news presentation
+---
+
+## {{ page.description }}
+
+### 第15回生物数学の理論とその応用にて発表を行いました。
+
+[第15回生物数学の理論とその応用](https://tbmaxv.wixsite.com/home){:target="_blank"}

@@ -1,0 +1,83 @@
+<h3>Publications</h3>
+<h4>原著論文</h4>
+{% for article in site.data.articles %}
+<p>
+  {% if article.title %}
+  <strong>{{ article.title }}</strong><br>
+  {% endif %}
+  {% if article.authors %}
+  {{ article.authors }}<br>
+  {% endif %}
+  {% if article.journal %}
+  <i>{{ article.journal }}</i>
+  {% if article.page %}
+  {{ article.page }}
+  {% endif %}
+  <br>
+  {% endif %}
+  {% if article.publisher %}
+  {{ article.publisher }}
+  {% endif %}
+  {% if article.year %}
+  ({{ article.year }})<br>
+  {% endif %}
+  {% if article.doi %}
+  DOI: <a href="{{ article.url }}" target="_blank">{{ article.doi }}</a>
+  {% endif %}</p>
+{% endfor %}
+<a href="/achievements/#achievements_articles">原著論文一覧 ></a>
+
+<h4>総説</h4>
+{% for article in site.data.reviews %}
+<p>
+  {% if article.title %}
+  <strong>{{ article.title }}</strong><br>
+  {% endif %}
+  {% if article.authors %}
+  {{ article.authors }}<br>
+  {% endif %}
+  {% if article.journal %}
+  <i>{{ article.journal }}</i>
+  {% if article.page %}
+  {{ article.page }}
+  {% endif %}
+  <br>
+  {% endif %}
+  {% if article.publisher %}
+  {{ article.publisher }}
+  {% endif %}
+  {% if article.year %}
+  ({{ article.year }})<br>
+  {% endif %}
+  {% if article.doi %}
+  DOI: <a href="{{ article.url }}" target="_blank">{{ article.doi }}</a>
+  {% endif %}</p>
+{% endfor %}
+<a href="/achievements/#achievements_reviews">総説一覧 ></a>
+<h4>日本語論文</h4>
+{% for article in site.data.jparticles %}
+<p>
+  {% if article.title %}
+  <strong>{{ article.title }}</strong><br>
+  {% endif %}
+  {% if article.authors %}
+  {{ article.authors }}<br>
+  {% endif %}
+  {% if article.journal %}
+  <i>{{ article.journal }}</i>
+  {% if article.page %}
+  {{ article.page }}
+  {% endif %}
+  <br>
+  {% endif %}
+  {% if article.publisher %}
+  {{ article.publisher }}
+  {% endif %}
+  {% if article.year %}
+  ({{ article.year }})<br>
+  {% endif %}
+  {% if article.doi %}
+  DOI: <a href="{{ article.url }}" target="_blank">{{ article.doi }}</a>
+  {% endif %}</p>
+{% endfor %}
+<a href="/achievements/#achievements_jparticles">日本語論文一覧 ></a>

@@ -53,13 +53,3 @@ categories: news
 [第27回日本数理生物学会年会](https://sites.google.com/view/jsmb2019conference/%E3%83%9B%E3%83%BC%E3%83%A0){:target=“_blank”}
 
 [日本数理生物学会](http://www.jsmb.jp/index.html){:target=“_blank”}
-
-|||
-|-----------|------------|
-| 講演者：|佐伯 晃一（東京大学大学院新領域創成科学研究科） |
-|講演タイトル：|低親和性抗原存在下におけるTCRシグナルの情報伝達|
-
-|`code` |*italic*                  |
-|----------|--------------------------|
-|**bold**  |***bold italic***         |
-|$ \omega $|[Qiita](http://qiita.com)||

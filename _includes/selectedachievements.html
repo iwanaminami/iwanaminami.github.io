@@ -1,6 +1,6 @@
 <h3>Publications</h3>
 <h4>原著論文</h4>
-{% for article in site.data.articles %}
+{% for article in site.data.articles limit:3 %}
 <p>
   {% if article.title %}
   <strong>{{ article.title }}</strong><br>
@@ -28,7 +28,7 @@
 <a href="/achievements/#achievements_articles">原著論文一覧 ></a>
 
 <h4>総説</h4>
-{% for article in site.data.reviews %}
+{% for article in site.data.reviews limit:3 %}
 <p>
   {% if article.title %}
   <strong>{{ article.title }}</strong><br>
@@ -55,7 +55,7 @@
 {% endfor %}
 <a href="/achievements/#achievements_reviews">総説一覧 ></a>
 <h4>日本語論文</h4>
-{% for article in site.data.jparticles %}
+{% for article in site.data.jparticles limit:3 %}
 <p>
   {% if article.title %}
   <strong>{{ article.title }}</strong><br>
@@ -77,7 +77,10 @@
   ({{ article.year }})<br>
   {% endif %}
   {% if article.doi %}
-  DOI: <a href="{{ article.url }}" target="_blank">{{ article.doi }}</a>
+  DOI: <a href="{{ article.url }}" target="_blank">{{ article.doi }}</a><br>
+  {% endif %}
+  {% if article.repository %}
+  <a href="{{ article.url }}" target="_blank">{{ article.repository }}</a>
   {% endif %}</p>
 {% endfor %}
 <a href="/achievements/#achievements_jparticles">日本語論文一覧 ></a>

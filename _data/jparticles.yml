@@ -1,11 +1,12 @@
 - title: 骨髄球バイパスを含む造血システムの数理モデルを用いた１細胞移植実験のデータ解析
   authors: 岩波翔也、山本玲、岩見真吾、波江野洋
   journal: 数理解析研究所講究録
-  #page: "14:9"
+  page: "No.2087:77-85"
   publisher: 京都大学数理解析研究所
-  year: "受理"
+  year: "2018"
   #doi: 10.1186/s12976-017-0055-8
-  #url: https://doi.org/10.1186/s12976-017-0055-8
+  repository: 京都大学学術情報リポジトリKURENAI（速報版）
+  url: http://www.kurims.kyoto-u.ac.jp/~kyodo/kokyuroku/contents/pdf/2087-10.pdf
   order: "4"
 
 - title: 骨髄球バイパスを含む造血システムの数理モデル
@@ -15,7 +16,8 @@
   publisher: 京都大学数理解析研究所
   year: "2017"
   #doi: 10.1186/s12976-017-0055-8
-  #url: https://doi.org/10.1186/s12976-017-0055-8
+  repository: 京都大学学術情報リポジトリKURENAI
+  url: https://repository.kulib.kyoto-u.ac.jp/dspace/bitstream/2433/236964/1/2043-17.pdf
   order: "3"
 
 - title: 長期的な再生産能力を持った骨髄球系前駆細胞を含む造血システムの数理モデル

@@ -11,6 +11,8 @@ permalink: /achievements/
 
 {{ page.description }}
 
+[Google Scholar](https://scholar.google.co.jp/citations?user=Vt5AAPcAAAAJ&hl=ja&oi=ao){:target="_blank"}
+
 ## 原著論文
 {:id="achievements_articles"}
 
@@ -106,6 +108,9 @@ permalink: /achievements/
     {% endif %}
     {% if article.doi %}
     DOI: <a href="{{ article.url }}" target="_blank">{{ article.doi }}</a>.
+    {% endif %}
+    {% if article.repository %}
+    <a href="{{ article.url }}" target="_blank">{{ article.repository }}</a>.
     {% endif %}</td>
   </tr>
 {% endfor %}

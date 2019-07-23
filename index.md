@@ -154,23 +154,7 @@ last_modified_at: 2019-07-12 01:28:37 +0900
     			</div>
   			</div>
   			<!-- news Section -->
-  			<section class="news" id="news">
-    			<h2 class="current-news">News</h2>
-				<div class="news-description">
-					<table class="news_table">
-						{% for post in site.categories.news limit:5 %}
-						<tr class="news_cell">
-							<th>{{ post.date_news }}</th>
-							<td>{% if post.categories[1] %}<a href="/{{ post.categories[1] }}/"><strong>[{{ post.categories[1] }}] </strong></a>{% endif %}{{ post.description }}<a href="{{ post.url }}"> [詳細]</a></td>
-						</tr>
-						{% endfor %}
-						<tr class="news_cell">
-							<th>その他</th>
-							<td><a href="/news">- 過去の新着情報 -</a></td>
-						</tr>
-					</table>
-				</div>
-  			</section>
+  			{% include selectednews.html %}
 
 			<div class="achievements" id="achievements">
 				<div class="publications">

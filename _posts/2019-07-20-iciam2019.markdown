@@ -1,16 +1,14 @@
 ---
 layout: post
 title: "ICIAM2019に参加・発表"
-description: ICIAM2019に参加し発表を行いました。
+description: 2019年7月15日から2019年7月19日にスペイン・バレンシアにて開催されたICIAM2019に参加しました。
 date: 2019-07-20 01:28:37 +0900
 date_news: "2019.07.20"
-last_modified_at: 2019-07-20 01:28:37 +0900
+last_modified_at: 2019-07-25 12:00:00 +0900
 categories: news presentation
 sub_categories: oral
+tags: conference, presentation
 ---
 
-## ICIAM2019に参加・発表
-
-### 2019年7月15日から2019年7月19日にスペイン・バレンシアにて開催されたICIAM2019に参加しました。
 
 [学会ページ](https://iciam2019.org/){:target="_blank"}

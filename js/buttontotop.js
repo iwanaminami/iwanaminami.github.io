@@ -19,10 +19,10 @@ $(function() {
       }
     }
   });
-  pagetop.click(function () {
-    $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
-    return false;
-  });
+  //pagetop.click(function () {
+    //$('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
+    //return false;
+  //});
 });
 $(function() {
   var appear = false;
@@ -44,10 +44,10 @@ $(function() {
       }
     }
   });
-  pagetop.click(function () {
-    $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
-    return false;
-  });
+  //pagetop.click(function () {
+    //$('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
+    //return false;
+  //});
 });
 $(function() {
   var appear = false;
@@ -69,8 +69,8 @@ $(function() {
       }
     }
   });
-  pagetop.click(function () {
-    $('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
-    return false;
-  });
+  //pagetop.click(function () {
+    //$('body, html').animate({ scrollTop: 0 }, 500); //0.5秒かけてトップへ戻る
+    //return false;
+  //});
 });

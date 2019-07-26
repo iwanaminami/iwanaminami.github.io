@@ -3,12 +3,30 @@ layout: post
 title: "ICIAM2019に参加・発表"
 description: 2019年7月15日から2019年7月19日にスペイン・バレンシアにて開催されたICIAM2019に参加しました。
 date: 2019-07-20 01:28:37 +0900
-date_news: "2019.07.20"
-last_modified_at: 2019-07-25 12:00:00 +0900
+last_modified_at: 2019-07-27 12:00:00 +0900
 categories: news presentation
 sub_categories: oral
 tags: conference, presentation
 ---
 
+---
 
-[学会ページ](https://iciam2019.org/){:target="_blank"}
+## 発表詳細
+
+|||
+:---|:---
+Author(s):|**Shoya Iwanami**, Kosaku Kitagawa, Hirofumi Ohashi, Yusuke Asai, Koichi Watashi, Shingo Iwami
+Title:|A quantitative comparison between hepatitis C virus JFH-1 and Jc1 by a PDE multiscale model of virus infection.
+Conference:|9th International Congress on Industrial and Applied Mathematics (ICIAM 2019)
+Place:|Valencia, Spain
+Date:|2019年7月16日(火)
+
+### Abstract
+
+We developed a mathematical model of virus dynamics by partial differential equations which is multi-scale model to simultaneously describe intercellular virus infection and intracellular virus replication. We analyzed the experimental data of hepatitis C virus (HCV) JFH-1 and Jc1 infection in cell culture using the mathematical model and estimated parameters which described characteristics of HCV strains. As a result of comparison of estimated parameters, we found that JFH-1 strain had higher fitness than Jc1 strain.
+
+---
+
+## 関連リンク
+
+[学会ページ](https://iciam2019.org/)

@@ -887,12 +887,11 @@ nav ul a li {
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
-	padding-top: 40%;
+	padding-top: 50px;
 	padding-right: 0px;
 	padding-bottom: 0px;
 	padding-left: 0px;
 	width: 100%;
-	font-size: 24px;
 }
 .news-description {
 	padding-top: 0px;
@@ -1067,17 +1066,8 @@ nav ul li {
 		background-image: none;
 	}
 .current-news {
-	text-align: center;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
-	margin-left: 0px;
-	padding-top: 40%;
-	padding-right: 0px;
-	padding-bottom: 0px;
-	padding-left: 0px;
-	width: 100%;
-	font-size: 24px;
+	padding-right: 5%;
+	padding-left: 5%;
 }
 .news-description {
 	padding-top: 0px;

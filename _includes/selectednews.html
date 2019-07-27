@@ -2,6 +2,7 @@
   <h2 class="current-news">News</h2>
   {% if site.tags.nextevent %}
   <div class="news-description pb-0 pt-1">
+    <hr class="border-light">
     <h3>お知らせ</h3>
     {% for post in site.tags.nextevent limit:10 %}
     <div class="row mb-4">
@@ -22,6 +23,7 @@
   </div>
   {% endif %}
   <div class="news-description">
+    <hr class="border-light">
     <h3>新着情報</h3>
     <table class="news_table">
       {% for post in site.categories.news limit:8 %}

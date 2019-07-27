@@ -413,6 +413,13 @@ nav ul a li h4 {
 	margin-top: 0px;
 	font-weight: 700;
 }
+
+@media (max-width: 1000px) {
+	.current-news{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
 .news-description {
 	color: #FFFFFF;
 	text-align: left;
@@ -430,9 +437,17 @@ nav ul a li h4 {
 
 }
 
+@media (max-width: 1000px) {
+	.news-description{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+}
+
 .news_image_box {
 	position: relative;
-  height: 100px;
+  min-height: 100px;
+	height: 100%;
 	width: 100%;
 	overflow: hidden;
 	border-radius: 3px;
@@ -513,6 +528,13 @@ nav ul a li h4 {
 	padding-bottom: 100px;
 	padding-left: 100px;
 	padding-right: 100px;
+}
+
+@media (max-width: 1000px) {
+	.publications{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
 }
 /* More info */
 footer {

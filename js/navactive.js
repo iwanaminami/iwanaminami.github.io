@@ -2,7 +2,8 @@
 $(function(){
 // ナビゲーションのリンクを指定
    var navLink = $('nav ul a');
- 
+   var navBox = $('nav ul li')
+
     // 各コンテンツのページ上部からの開始位置と終了位置を配列に格納しておく
    var contentsArr = new Array();
   for (var i = 0; i < navLink.length; i++) {
@@ -18,7 +19,7 @@ $(function(){
             contentsArr[i] = [targetContentsTop, targetContentsBottom]
       }
    };
- 
+
   // 現在地をチェックする
    function currentCheck() {
        // 現在のスクロール位置を取得
@@ -28,12 +29,14 @@ $(function(){
           if(contentsArr[i][0] <= windowScrolltop && contentsArr[i][1] >= windowScrolltop) {
                 // 開始位置と終了位置の間にある場合、ナビゲーションにclass="current"をつける
                navLink.removeClass('current');
+               navBox.removeClass('current_box');
                navLink.eq(i).addClass('current');
+               navBox.eq(i).addClass('current_box')
                 i == contentsArr.length;
             }
        };
   }
- 
+
    // ページ読み込み時とスクロール時に、現在地をチェックする
   $(window).on('load scroll', function() {
       currentCheck();

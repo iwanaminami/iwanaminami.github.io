@@ -7,7 +7,7 @@ update: 2019-07-23 01:28:37 +0900
 last_modified_at: 2019-07-24 01:28:37 +0900
 categories: event
 tags: conference, presentation, symposium, nextevent
-image: //www.jsmb.jp/image/cyojugiga.jpg
+image: /images/posts/sympo-susei.jpg
 ---
 
 

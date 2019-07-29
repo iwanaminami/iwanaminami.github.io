@@ -1,5 +1,39 @@
 @charset "UTF-8";
 
+hr{
+	margin: 100px 5% 100px 5%;
+}
+
+.post_container{
+	max-width: 1600px;
+}
+.post_container h3{
+	background: linear-gradient(transparent 60%, rgb(0,0,0,0.1) 60%);
+	display: inline-block;
+	padding: 0.1rem;
+}
+
+
+
+@media (max-width: 992px) {
+	.post_container h1{
+		font-size: 32px;
+	}
+	.post_container h2{
+		font-size: 28px;
+	}
+	.post_container h3{
+		font-size: 22px;
+		font-weight: 700;
+		margin-bottom: 0;
+	}
+	.post_container h4{
+		font-size: 18px;
+		font-weight: 700;
+	}
+
+}
+
 .nav_container{
 	width: 200px;
 	height: 100vh;

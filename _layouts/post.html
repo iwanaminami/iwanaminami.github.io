@@ -1,10 +1,12 @@
 ---
 layout: main
 ---
-<div class="pt-5 pb-5 pr-3 pl-3 pr-lg-5 pl-lg-5 m-lg-5 bg-white">
-  <h1>{{ page.title }}</h1>
-  <p class="text-muted">公開: {{ page.date | date: "%Y年%-m月%-d日" }} | 更新: {{ page.last_modified_at | date: "%Y年%-m月%-d日" }}</p>
-  <div style="height: 20px;"></div>
-  <p>{{ page.description }}</p>
-  {{ content }}
+<div class="post_container">
+  <div class="pt-5 pb-5 pr-3 pl-3 pr-lg-5 pl-lg-5 m-lg-5 bg-white">
+    <h1>{{ page.title }}</h1>
+    <p class="text-muted">公開: {{ page.date | date: "%Y年%-m月%-d日" }} | 更新: {{ page.last_modified_at | date: "%Y年%-m月%-d日" }}</p>
+    <div style="height: 20px;"></div>
+    <p>{{ page.description }}</p>
+    {{ content }}
+  </div>
 </div>

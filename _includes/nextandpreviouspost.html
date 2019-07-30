@@ -4,36 +4,28 @@
     <div class="col-md-6">
       {% if page.next %}
       <a href="{{ page.next.url }}">
-        <div class="p-2 mb-2 border">
-          <p>< 次の投稿</p>
-          <h4>{{ page.next.title }}</h4>
-          <p>{{ page.next.description }}</p>
-        </div>
+        <p class="m-0">< 次の投稿</p>
+        <h4 class="m-0">{{ page.next.title }}</h4>
+        <p class="text-dark">{{ page.next.description }}</p>
       </a>
       {% else %}
       <a href="{{ site.url }}">
-        <div class="p-2 mb-2 border">
-          <p>最新記事です！</p>
-          <h4>サイトトップへ</h4>
-        </div>
+        <p class="m-0">最新記事です！</p>
+        <h4 class="m-0">サイトトップへ</h4>
       </a>
       {% endif %}
     </div>
     <div class="col-md-6">
       {% if page.previous %}
       <a href="{{ page.previous.url }}">
-        <div class="p-2 mb-2 border">
-          <p>前の投稿 ></p>
-          <h4>{{ page.previous.title }}</h4>
-          <p>{{ page.previous.description }}</p>
-        </div>
+        <p class="m-0">前の投稿 ></p>
+        <h4 class="m-0">{{ page.previous.title }}</h4>
+        <p class="text-dark">{{ page.previous.description }}</p>
       </a>
       {% else %}
       <a href="{{ site.url }}">
-        <div class="p-2 mb-2 border">
-          <p>最後の記事です！</p>
-          <h4>サイトトップへ</h4>
-        </div>
+        <p class="m-0">最後の記事です！</p>
+        <h4 class="m-0">サイトトップへ</h4>
       </a>
       {% endif %}
     </div>

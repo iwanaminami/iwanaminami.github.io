@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "企画シンポジウム「免疫システムを創出する細胞・分子群のダイナミクス」"
-description: 第27回日本数理生物学会にて企画シンポジウム「免疫システムを創出する細胞・分子群のダイナミクス」を主催します。
+description: 2019年度日本数理生物学会年会にて企画シンポジウム「免疫システムを創出する細胞・分子群のダイナミクス」を主催します。
 date: 2019-07-23 01:28:37 +0900
 update: 2019-07-23 01:28:37 +0900
 last_modified_at: 2019-07-24 01:28:37 +0900
@@ -53,6 +53,6 @@ comments: true
 <hr>
 
 ## 関連リンク
-[第27回日本数理生物学会年会](https://sites.google.com/view/jsmb2019conference/%E3%83%9B%E3%83%BC%E3%83%A0){:target=“_blank”}
+[2019年度日本数理生物学会年会](https://sites.google.com/view/jsmb2019conference)
 
-[日本数理生物学会](http://www.jsmb.jp/index.html){:target=“_blank”}
+[日本数理生物学会](http://www.jsmb.jp/index.html)

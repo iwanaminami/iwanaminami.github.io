@@ -7,10 +7,9 @@ date_news: "2019.01.18"
 last_modified_at: 2019-07-20 01:28:37 +0900
 categories: news presentation
 sub_categories: oral
+comments: true
 ---
 
-## {{ page.description }}
-
-### IMAID2018にて発表を行いました。
+## 関連リンク
 
 [IMAID2018](https://imaid2018.jimdofree.com/){:target="_blank"}

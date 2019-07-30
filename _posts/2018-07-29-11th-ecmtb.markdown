@@ -6,8 +6,5 @@ date: 2018-07-29 01:28:37 +0900
 date_news: "2018.07.29"
 last_modified_at: 2019-07-20 01:28:37 +0900
 categories: news presentation
+comments: true
 ---
-
-## {{ page.description }}
-
-### 11th European Conference on Mathematical and Theoretical Biologyに参加しました。

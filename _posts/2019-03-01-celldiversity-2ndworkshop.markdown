@@ -7,6 +7,7 @@ date_news: "2019.03.01"
 last_modified_at: 2019-07-20 01:28:37 +0900
 categories: news presentation
 sub_categories: poster
+comments: true
 ---
 
 

@@ -7,10 +7,9 @@ date_news: "2019.01.15"
 last_modified_at: 2019-07-20 01:28:37 +0900
 categories: news presentation
 sub_categories: poster
+comments: true
 ---
 
-## {{ page.description }}
-
-### 新学術研究領域「細胞ダイバース」第3回公開シンポジウムにてポスター発表を行いました。
+## 関連リンク
 
 [新学術研究領域「細胞ダイバース」第3回公開シンポジウム](http://cdiversity.umin.jp/event/201901/index.html){:target="_blank"}

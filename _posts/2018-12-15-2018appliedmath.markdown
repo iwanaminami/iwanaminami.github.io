@@ -6,10 +6,9 @@ date: 2018-12-15 01:28:37 +0900
 date_news: "2018.12.15"
 last_modified_at: 2019-07-20 01:28:37 +0900
 categories: news presentation
+comments: true
 ---
 
-## {{ page.description }}
-
-### 2018年度応用数学合同研究集会にて発表を行いました。
+## 関連リンク
 
 [2018年度応用数学合同研究集会](http://infoshako.sk.tsukuba.ac.jp/~cam/2018/){:target="_blank"}

@@ -6,6 +6,7 @@ date: 2019-02-06 01:28:37 +0900
 date_news: "2019.02.06"
 last_modified_at: 2019-07-20 01:28:37 +0900
 categories: news
+comments: true
 ---
 
 ## 関連リンク

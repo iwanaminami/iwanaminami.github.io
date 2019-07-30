@@ -6,8 +6,5 @@ date: 2018-06-29 01:28:37 +0900
 date_news: "2018.06.29"
 last_modified_at: 2019-07-20 01:28:37 +0900
 categories: news presentation
+comments: true
 ---
-
-## {{ page.description }}
-
-### 新学術領域研究「細胞社会ダイバーシティーの統合的解明と制御」の第2回公開シンポジウム「臓器構築システムの解明に向けた細胞社会ダイバーシティー研究の最前線」に参加しました。

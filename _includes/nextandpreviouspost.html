@@ -1,0 +1,41 @@
+<hr>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-6">
+      {% if page.next %}
+      <a href="{{ page.next.url }}">
+        <div class="p-2 mb-2 border">
+          <p>< 次の投稿</p>
+          <h4>{{ page.next.title }}</h4>
+          <p>{{ page.next.description }}</p>
+        </div>
+      </a>
+      {% else %}
+      <a href="{{ site.url }}">
+        <div class="p-2 mb-2 border">
+          <p>最新記事です！</p>
+          <h4>サイトトップへ</h4>
+        </div>
+      </a>
+      {% endif %}
+    </div>
+    <div class="col-md-6">
+      {% if page.previous %}
+      <a href="{{ page.previous.url }}">
+        <div class="p-2 mb-2 border">
+          <p>前の投稿 ></p>
+          <h4>{{ page.previous.title }}</h4>
+          <p>{{ page.previous.description }}</p>
+        </div>
+      </a>
+      {% else %}
+      <a href="{{ site.url }}">
+        <div class="p-2 mb-2 border">
+          <p>最後の記事です！</p>
+          <h4>サイトトップへ</h4>
+        </div>
+      </a>
+      {% endif %}
+    </div>
+  </div>
+</div>

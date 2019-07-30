@@ -6,10 +6,9 @@ date: 2018-02-03 01:28:37 +0900
 date_news: "2018.02.03"
 last_modified_at: 2019-07-20 01:28:37 +0900
 categories: news presentation
+comments: true
 ---
 
-## {{ page.description }}
-
-### 第２回理論免疫学ワークショップに参加しました。
+## 関連リンク
 
 [理論免疫学ワークショップ](https://workshop.theoreticalimmunology.jp)

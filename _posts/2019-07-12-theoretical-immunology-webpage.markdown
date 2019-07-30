@@ -8,6 +8,7 @@ last_modified_at: 2019-07-20 01:28:37 +0900
 categories: event
 tags: nextevent
 image: https://workshop.theoreticalimmunology.jp/assets/images/logo3-1.png
+comments: true
 ---
 
 

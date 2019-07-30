@@ -7,13 +7,12 @@ date_news: "2019.01.25"
 last_modified_at: 2019-07-20 01:28:37 +0900
 categories: news presentation
 sub_categories: oral
+comments: true
 ---
-
-## {{ page.description }}
-
-### 第3回理論免疫学ワークショップを主催し、発表を行いました。
 
 主催：岩波翔也（九州大学大学院システム生命科学府）
 開催地：秋田市にぎわい交流館AU
+
+## 関連リンク
 
 [理論免疫学ワークショップ](https://Workshop.theoreticalimmunology.jp){:target="_blank"}

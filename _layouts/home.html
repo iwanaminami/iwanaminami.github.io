@@ -1,38 +1,30 @@
-<!doctype html>
-<html lang="ja">
-{% include head.html %}
-<body class="bg-white">
-	<div class="fixed-top bg-white d-table-cell align-middle nav_container">
-		{% include nav-home.html %}
-	</div>
+---
+layout: main
+---
 
-	<div id="top" class="container-fluid vh-100 text-dark bg-white toppage_top">
-		<div class="row">
-			<div class="offset-lg-7">
-				<!-- デスクトップ以上で≥768px空白、それ以外非表示 -->
-			</div>
-			<div class="col-lg-5">
-				<div class="d-table-cell vh-100 align-middle">
-					<div class="toppage_head">
-						<h3 class="mt-0 mb-0" style="">ShoyaIWANAMI.com</h3>
-						<h2>Welcome to Shoya Iwanami's web page</h2>
-						<p>A researcher of Mathematical Biology</p>
-					</div>
+<div id="top" class="container-fluid vh-100 text-dark bg-white toppage_top">
+	<div class="row">
+		<div class="offset-lg-7">
+			<!-- デスクトップ以上で≥768px空白、それ以外非表示 -->
+		</div>
+		<div class="col-lg-5">
+			<div class="d-table-cell vh-100 align-middle">
+				<div class="toppage_head">
+					<h3 class="mt-0 mb-0" style="">ShoyaIWANAMI.com</h3>
+					<h2>Welcome to Shoya Iwanami's web page</h2>
+					<p>A researcher of Mathematical Biology</p>
 				</div>
 			</div>
 		</div>
 	</div>
+</div>
 
-	<div class="two-col-container">
+<div class="two-col-container">
 
-    {{ content }}
+	{{ content }}
 
 
-		<!-- footer -->
-		{% include footer.html %}
-		<!-- footer -->
-	</div>
-
-</body>
-
-</html>
+	<!-- footer -->
+	{% include footer.html %}
+	<!-- footer -->
+</div>

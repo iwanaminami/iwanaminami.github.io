@@ -11,9 +11,11 @@ permalink: /achievements/
 
 {{ page.description }}
 
-[Google Scholar](https://scholar.google.co.jp/citations?user=Vt5AAPcAAAAJ&hl=ja&oi=ao){:target="_blank"}
+[Google Scholar](https://scholar.google.co.jp/citations?user=Vt5AAPcAAAAJ&hl=ja&oi=ao)
 
-## 原著論文
+## 出版物
+
+### 原著論文
 {:id="achievements_articles"}
 
 <table>
@@ -39,15 +41,13 @@ permalink: /achievements/
     ({{ article.year }}).
     {% endif %}
     {% if article.doi %}
-    DOI: <a href="{{ article.url }}" target="_blank">{{ article.doi }}</a>.
+    DOI: <a href="{{ article.url }}">{{ article.doi }}</a>.
     {% endif %}</td>
   </tr>
 {% endfor %}
 </table>
 
-<hr>
-
-## 総説
+### 総説
 {:id="achievements_reviews"}
 
 <table>
@@ -73,15 +73,13 @@ permalink: /achievements/
     ({{ article.year }}).
     {% endif %}
     {% if article.doi %}
-    DOI: <a href="{{ article.url }}" target="_blank">{{ article.doi }}</a>.
+    DOI: <a href="{{ article.url }}">{{ article.doi }}</a>.
     {% endif %}</td>
   </tr>
 {% endfor %}
 </table>
 
-<hr>
-
-## 日本語論文
+### 日本語論文
 {:id="achievements_jparticles"}
 
 <table>
@@ -107,11 +105,109 @@ permalink: /achievements/
     ({{ article.year }}).
     {% endif %}
     {% if article.doi %}
-    DOI: <a href="{{ article.url }}" target="_blank">{{ article.doi }}</a>.
+    DOI: <a href="{{ article.url }}">{{ article.doi }}</a>.
     {% endif %}
     {% if article.repository %}
-    <a href="{{ article.url }}" target="_blank">{{ article.repository }}</a>.
+    <a href="{{ article.url }}">{{ article.repository }}</a>.
     {% endif %}</td>
   </tr>
+{% endfor %}
+</table>
+
+<hr>
+
+## 発表等
+{:id="presentations"}
+
+### 国際学会等
+{:id="international_presentations"}
+
+<table>
+{% assign international_presentations = site.data.presentations.international.size %}
+{% for article in site.data.presentations.international %}
+  <tr>
+    <th class="p-1 align-top text-center"><p class="m-0">[{{ international_presentations | plus: dec_international }}]</p></th>
+    <td class="p-1">
+      {% if article.title %}
+      <p class="m-0 font-weight-bold">{{ article.title }}</p>
+      {% endif %}
+      {% if article.authors %}
+      <p class="m-0">{{ article.authors }}</p>
+      {% endif %}
+      {% if article.conference %}
+      <p class="m-0">{% if article.website %}<a href="{{ article.website }}">{{ article.conference }}</a>{% else %}{{ article.conference }}{% endif %}</p>
+      {% endif %}
+      {% if article.place or article.date or article.start or article.end %}
+      <p class="m-0">
+        {% if article.place %}開催場所：{{ article.place }}{% if article.date or article.start %} /{% endif %}{% endif %}
+        {% if article.date %}発表日：{{ article.date | date: "%B %-d, %Y" }}{% if article.start %} /{% endif %}{% endif %}
+        {% if article.start %}開催日：{{ article.start | date: "%B %-d, %Y" }}{% if article.end %} - {{ article.end | date: "%B %-d, %Y" }}{% endif %}{% endif %}
+      </p>
+      {% endif %}
+    </td>
+  </tr>
+<div class="d-none">{% decrement dec_international %}</div>
+{% endfor %}
+</table>
+
+### 国内学会等
+{:id="domestic_presentations"}
+
+<table>
+{% assign domestic_presentations = site.data.presentations.domestic.size %}
+{% for article in site.data.presentations.domestic %}
+  <tr>
+    <th class="p-1 align-top text-center"><p class="m-0">[{{ domestic_presentations | plus: dec_domestic }}]</p></th>
+    <td class="p-1">
+      {% if article.title %}
+      <p class="m-0 font-weight-bold">{{ article.title }}</p>
+      {% endif %}
+      {% if article.authors %}
+      <p class="m-0">{{ article.authors }}</p>
+      {% endif %}
+      {% if article.conference %}
+      <p class="m-0">{% if article.website %}<a href="{{ article.website }}">{{ article.conference }}</a>{% else %}{{ article.conference }}{% endif %}</p>
+      {% endif %}
+      {% if article.place or article.date or article.start or article.end %}
+      <p class="m-0">
+        {% if article.place %}開催場所：{{ article.place }}{% if article.date or article.start %} /{% endif %}{% endif %}
+        {% if article.date %}発表日：{{ article.date | date: "%Y年%-m月%-d日" }}{% if article.start %} /{% endif %}{% endif %}
+        {% if article.start %}開催日：{{ article.start | date: "%Y年%-m月%-d日" }}{% if article.end %} - {{ article.end | date: "%Y年%-m月%-d日" }}{% endif %}{% endif %}
+      </p>
+      {% endif %}
+    </td>
+  </tr>
+<div class="d-none">{% decrement dec_domestic %}</div>
+{% endfor %}
+</table>
+
+### セミナーなど
+{:id="seminar_presentations"}
+
+<table>
+{% assign seminar_presentations = site.data.presentations.seminar.size %}
+{% for article in site.data.presentations.seminar %}
+  <tr>
+    <th class="p-1 align-top text-center"><p class="m-0">[{{ seminar_presentations | plus: dec_seminar }}]</p></th>
+    <td class="p-1">
+      {% if article.title %}
+      <p class="m-0 font-weight-bold">{{ article.title }}</p>
+      {% endif %}
+      {% if article.authors %}
+      <p class="m-0">{{ article.authors }}</p>
+      {% endif %}
+      {% if article.conference %}
+      <p class="m-0">{% if article.website %}<a href="{{ article.website }}">{{ article.conference }}</a>{% else %}{{ article.conference }}{% endif %}</p>
+      {% endif %}
+      {% if article.place or article.date or article.start or article.end %}
+      <p class="m-0">
+        {% if article.place %}開催場所：{{ article.place }}{% if article.date or article.start %} /{% endif %}{% endif %}
+        {% if article.date %}発表日：{{ article.date | date: "%Y年%-m月%-d日" }}{% if article.start %} /{% endif %}{% endif %}
+        {% if article.start %}開催日：{{ article.start | date: "%Y年%-m月%-d日" }}{% if article.end %} - {{ article.end | date: "%Y年%-m月%-d日" }}{% endif %}{% endif %}
+      </p>
+      {% endif %}
+    </td>
+  </tr>
+<div class="d-none">{% decrement dec_seminar %}</div>
 {% endfor %}
 </table>

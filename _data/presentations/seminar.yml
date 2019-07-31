@@ -1,22 +1,32 @@
+- title: 造血幹細胞移植の数理モデルと定量的データ解析
+  authors: 岩波翔也
+  conference: 岩手数理科学セミナー
+  place: 岩手大学理工学部, 岩手
+  date: 2018-08-28 12:00:00 +0900
+  website: http://web.cc.iwate-u.ac.jp/~miyajima/seminar.html
+  format: oral
+  type: seminar
+
 - title: Data analysis of single-cell transplantation using mathematical model of hematopoietic system with myeloid bypass
-  authors: Iwanami S.
+  authors: Shoya Iwanami
   conference: Seminar @Nakauchi Lab
   place: Stanford University School of Medicine, Stanford, CA, USA
   date: 2017-07-25 12:00:00 +0900
   format: oral
   type: seminar
 
-- title: Mathematical model of hematopoietic system with myeloid bypass.
-  authors: Iwanami S.
+- title: Mathematical model of hematopoietic system with myeloid bypass
+  authors: Shoya Iwanami
   conference: ME seminar @Mathematical Biology Laboratory
   place: Kyushu University, Fukuoka, Japan
+  organizer: Mathematical Biology Laboratory, Kyushu University
   date: 2017-02-07 12:00:00 +0900
   website: http://bio-math10.biology.kyushu-u.ac.jp/me_all/me_2017/2017_2_7.html
   format: oral
   type: seminar
 
 - title: Mathematical model of hematopoietic system with myeloid bypass
-  authors: Iwanami S.
+  authors: Shoya Iwanami
   conference: Seminar @Nakauchi Lab
   place: Stanford University School of Medicine, Stanford, CA, USA
   date: 2016-10-03 12:00:00 +0900

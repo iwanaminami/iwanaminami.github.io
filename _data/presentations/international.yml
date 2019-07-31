@@ -1,7 +1,20 @@
+- title: A quantitative comparison between hepatitis C virus JFH-1 and Jc1 by a PDE multiscale model of virus infection
+  authors: Shoya Iwanami, Kosaku Kitagawa, Hirofumi Ohashi, Yusuke Asai, Koichi Watashi, Shingo Iwami
+  conference: 9th International Congress on Industrial and Applied Mathematics (ICIAM 2019)
+  place: Blasco Ibáñez Campus of the Universitat de València, Valencia, Spain
+  organizer: The International Council for Industrial and Applied Mathematics, Sociedad Española de Matemática Aplicada (SEMA)
+  date: 2019-07-16 12:00:00 +0900
+  start: 2019-07-15 12:00:00 +0900
+  end: 2019-07-19 12:00:00 +0900
+  website: https://iciam2019.org/
+  format: oral
+  type: international
+
 - title: Data analysis of single-cell transplantation
-  authors: Iwanami S., Yamamoto R., Iwami S. and Haeno H.
+  authors: Shoya Iwanami, Ryo Yamamoto, Shingo Iwami and Hiroshi Haeno
   conference: 11th European Conference on Mathematical & Theoretical Biology and SMB Annual Meeting
-  place: Lisbon, Portugal
+  place: The University of Lisbon, Lisbon, Portugal
+  organizer: European Society for Mathematical and Theoretical Biology
   date: 2018-07-24 12:00:00 +0900
   start: 2018-07-23 12:00:00 +0900
   end: 2018-07-27 12:00:00 +0900
@@ -9,19 +22,33 @@
   format: poster
   type: international
 
+- title: Data analysis of single-HSC transplantation
+  authors: Shoya Iwanami, Ryo Yamamoto, Shingo Iwami and Hiroshi Haeno
+  conference: 2018 Annual Meeting of the Society for Mathematical Biology & the Japanese Society for Mathematical Biology
+  place: The University of Sydney, Sydney, Australia
+  organizer: Society for Mathematical Biology and Japanese Society for Mathematical Biology
+  date: 2018-07-09 12:00:00 +0900
+  start: 2018-07-08 12:00:00 +0900
+  end: 2018-07-12 12:00:00 +0900
+  website: http://conferences.science.unsw.edu.au/SMB2018/
+  format: poster
+  type: international
+
 - title: Data analysis of single-cell transplantation using mathematical model of Hematopoietic system with myeloid bypass
-  authors: Iwanami S., Yamamoto R., Iwami S. and Haeno H.
+  authors: Shoya Iwanami, Ryo Yamamoto, Shingo Iwami and Hiroshi Haeno
   conference: Viral Immune Dynamics Workshop
   place: The University of New South Wales, Sydney, Australia
+  organizer: Miles Davenport, The Kirby Institute, UNSW
   date: 2017-12-04 12:00:00 +0900
   start: 2017-12-04 12:00:00 +0900
   format: oral
   type: international
 
 - title: Mathematical model of hematopoietic system with myeloid bypass
-  authors: Iwanami S., Yamamoto R., Iwami S. and Haeno H.
+  authors: Shoya Iwanami, Ryo Yamamoto, Shingo Iwami and Hiroshi Haeno
   conference: The 2017 Society for Mathematical Biology Annual meeting
   place: The University of Utah, UT, USA
+  organizer: Society for Mathematical Biology
   date: 2017-07-17 12:00:00 +0900
   start: 2017-07-17 12:00:00 +0900
   end: 2017-07-20 12:00:00 +0900
@@ -30,9 +57,10 @@
   type: international
 
 - title: Mathematical model of hematopoietic system with myeloid-restricted progenitors with long-term repopulating activity
-  authors: Iwanami S., Yamamoto R., Iwami S. and Haeno H.
+  authors: Shoya Iwanami, Ryo Yamamoto, Shingo Iwami and Hiroshi Haeno
   conference: Systems Approaches in Immunology and Infectious Diseases
   place: Santa Fe, NM, USA
+  organizer: The Center for Nonlinear Studies at Los Alamos National Laboratory
   date: 2016-09-27 12:00:00 +0900
   start: 2016-09-27 12:00:00 +0900
   end: 2016-09-28 12:00:00 +0900
@@ -41,9 +69,10 @@
   type: international
 
 - title: Mathematical model of hematopoietic system with myeloid-restricted progenitors with long-term repopulating activity
-  authors: Iwanami S., Yamamoto R., Iwami S. and Haeno H.
+  authors: Shoya Iwanami, Ryo Yamamoto, Shingo Iwami and Hiroshi Haeno
   conference: 10th European Conference on Mathematical & Theoretical Biology and SMB Annual Meeting
   place: Nottingham, UK
+  organizer: European Society for Mathematical and Theoretical Biology and Society for Mathematical Biology
   date: 2016-07-12 12:00:00 +0900
   start: 2016-07-11 12:00:00 +0900
   end: 2016-07-15 12:00:00 +0900

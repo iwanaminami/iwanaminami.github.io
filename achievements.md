@@ -116,6 +116,32 @@ permalink: /achievements/
 
 <hr>
 
+## 受賞等
+{:id="prize"}
+
+<table>
+{% assign prize_count = site.data.prize.size %}
+{% for article in site.data.prize %}
+  <tr>
+    <th class="p-1 align-top text-center"><p class="m-0">[{{ prize_count | plus: dec_prize }}]</p></th>
+    <td class="p-1">
+      {% if article.name %}
+      <p class="m-0 font-weight-bold">{% if article.website %}<a href="{{ article.website }}">{{ article.name }}</a>{% else %}{{ article.name }}{% endif %}</p>
+      {% endif %}
+      {% if article.date %}
+      <p class="m-0">{{ article.date | date: "%Y年%-m月%-d日" }}</p>
+      {% endif %}
+      {% if article.organizer %}
+      <p class="m-0">{{ article.organizer }}</p>
+      {% endif %}
+    </td>
+  </tr>
+<div class="d-none">{% decrement dec_prize %}</div>
+{% endfor %}
+</table>
+
+<hr>
+
 ## 発表等
 {:id="presentations"}
 
@@ -136,6 +162,9 @@ permalink: /achievements/
       {% endif %}
       {% if article.conference %}
       <p class="m-0">{% if article.website %}<a href="{{ article.website }}">{{ article.conference }}</a>{% else %}{{ article.conference }}{% endif %}</p>
+      {% endif %}
+      {% if article.organizer %}
+      <p class="m-0">Organizer: {{ article.organizer }}</p>
       {% endif %}
       {% if article.place or article.date or article.start or article.end %}
       <p class="m-0">
@@ -168,6 +197,9 @@ permalink: /achievements/
       {% if article.conference %}
       <p class="m-0">{% if article.website %}<a href="{{ article.website }}">{{ article.conference }}</a>{% else %}{{ article.conference }}{% endif %}</p>
       {% endif %}
+      {% if article.organizer %}
+      <p class="m-0">主催者：{{ article.organizer }}</p>
+      {% endif %}
       {% if article.place or article.date or article.start or article.end %}
       <p class="m-0">
         {% if article.place %}開催場所：{{ article.place }}{% if article.date or article.start %} /{% endif %}{% endif %}
@@ -198,6 +230,9 @@ permalink: /achievements/
       {% endif %}
       {% if article.conference %}
       <p class="m-0">{% if article.website %}<a href="{{ article.website }}">{{ article.conference }}</a>{% else %}{{ article.conference }}{% endif %}</p>
+      {% endif %}
+      {% if article.organizer %}
+      <p class="m-0">主催者：{{ article.organizer }}</p>
       {% endif %}
       {% if article.place or article.date or article.start or article.end %}
       <p class="m-0">

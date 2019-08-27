@@ -1,33 +1,33 @@
-<hr>
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-md-6">
+<div class="border_container">
+  <h2 class="border_heading">Recent posts</h2>
+  <div class="clearfix">
+    <div class="column_50_md">
       {% if page.next %}
       <a href="{{ page.next.url }}">
-        <p class="m-0">< 次の投稿</p>
-        <h4 class="m-0">{{ page.next.title }}</h4>
-        <p class="text-dark">{{ page.next.description }}</p>
+        <p class="">< 次の投稿</p>
+        <h4 class="">{{ page.next.title }}</h4>
+        <p class="">{{ page.next.description }}</p>
       </a>
       {% else %}
       <a href="{{ site.url }}">
-        <p class="m-0">最新記事です！</p>
-        <h4 class="m-0">サイトトップへ</h4>
-        <p class="text-dark">ShoyaIWANAMI.com</p>
+        <p class="">最新記事です！</p>
+        <h4 class="">サイトトップへ</h4>
+        <p class="">ShoyaIWANAMI.com</p>
       </a>
       {% endif %}
     </div>
-    <div class="col-md-6">
+    <div class="column_50_md">
       {% if page.previous %}
       <a href="{{ page.previous.url }}">
-        <p class="m-0">前の投稿 ></p>
-        <h4 class="m-0">{{ page.previous.title }}</h4>
-        <p class="text-dark">{{ page.previous.description }}</p>
+        <p class="">前の投稿 ></p>
+        <h4 class="">{{ page.previous.title }}</h4>
+        <p class="">{{ page.previous.description }}</p>
       </a>
       {% else %}
       <a href="{{ site.url }}">
-        <p class="m-0">最後の記事です！</p>
-        <h4 class="m-0">サイトトップへ</h4>
-        <p class="text-dark">ShoyaIWANAMI.com</p>
+        <p class="">最後の記事です！</p>
+        <h4 class="">サイトトップへ</h4>
+        <p class="">ShoyaIWANAMI.com</p>
       </a>
       {% endif %}
     </div>

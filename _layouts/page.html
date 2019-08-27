@@ -1,23 +1,14 @@
 ---
 layout: main
 ---
-
-<div class="fixed-top bg-white d-table-cell align-middle nav_container">
-  {% include nav.html %}
+<div class="container_limited">
+  {{ content }}
 </div>
 
-<div class="two-col-container">
-  <div class="page_container pt-5 pb-5 pr-3 pl-3 pr-lg-5 pl-lg-5 m-lg-5 bg-white">
-    {{ content }}
-  </div>
-
-	<!-- footer -->
-	{% include footer.html %}
-	<!-- footer -->
-
-  <div style="height: 150px"></div>
-  <div id="page_top"><a href="/#"></a></div>
-  <div id="about_button"><a href="/#about"></a></div>
-  <div id="contact_button"><a href="/#contact"></a></div>
-
-</div>
+<!-- footer -->
+{% include footer2.html %}
+<!-- footer -->
+<div style="height: 150px"></div>
+<div id="page_top"><a href="/#"></a></div>
+<div id="about_button"><a href="/#about"></a></div>
+<div id="contact_button"><a href="/#contact"></a></div>

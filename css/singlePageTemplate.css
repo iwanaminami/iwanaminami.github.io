@@ -122,6 +122,7 @@ header {
 header a {
 	text-decoration: none;
 }
+/*
 .clearfix{
 	height: 100%;
 }
@@ -130,6 +131,7 @@ header a {
 	clear: both;
 	display: block;
 }
+*/
 .header-logo-div {
 	height: 200px;
 	width: 200px;

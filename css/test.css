@@ -58,7 +58,7 @@ footer p{
   background-color: #ffffff;
   padding: 5px 10px;
   margin: 0 20px;
-  font-family: 'Century Gothic';
+  font-family: 'Century Gothic','Avenir Next', arial, source-sans-pro,'Noto Sans Japanese';
   font-size: 36px;
   color: #D70151;
 }

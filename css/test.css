@@ -193,7 +193,8 @@ footer p{
   right: 0;
   font-size: 120px;
   font-weight: bold;
-  color: #D7015190;
+  color: #D70151;
+  opacity: .5;
   z-index: -1;
 }
 

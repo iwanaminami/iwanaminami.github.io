@@ -1,0 +1,32 @@
+---
+layout: post
+title: "第29回日本数理生物学会年会に参加・発表"
+description: 2019年9月14日(土)から9月16日(月)に東京工業大学大岡山キャンパスにて開催された第29回日本数理生物学会年会に参加し、研究発表を行いました。
+date: 2019-09-16 12:00:00 +0900
+last_modified_at: 2019-09-25 17:25:00 +0900
+categories: news
+tags: conference, presentation, symposium
+comments: true
+---
+
+---
+
+## 発表詳細
+
+|||
+:---|:---
+Author(s):|岩波翔也
+Title:|造血幹細胞分化における骨髄球バイパスの機能
+Conference:|第29回日本数理生物学会年会
+Symposium:|免疫システムを創出する細胞・分子群のダイナミクス
+organizer:|金子和正（東京大学）・岩波翔也（九州大学）
+Place:|東京工業大学大岡山キャンパス
+Date:|2019年9月14日(土)
+
+---
+
+## 関連リンク
+
+[2019年度日本数理生物学会年会](https://sites.google.com/view/jsmb2019conference)
+
+[日本数理生物学会](http://www.jsmb.jp/index.html)

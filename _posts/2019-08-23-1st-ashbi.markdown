@@ -1,0 +1,16 @@
+---
+layout: post
+title: "第１回ASHBi数理生物研究集会に参加"
+description: 2019年8月23日(金)に京都大学高等研究院本館2階セミナー室にて開催された第１回ASHBi数理生物研究集会に参加しました。
+date: 2019-08-28 12:00:00 +0900
+last_modified_at: 2019-09-25 17:14:00 +0900
+categories: news
+tags: conference
+comments: true
+---
+
+
+
+## 関連リンク
+
+[第１回ASHBi数理生物研究集会](http://ashbi.kyoto-u.ac.jp/blog/info/post-683/)

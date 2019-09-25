@@ -5,7 +5,7 @@ description: 2019年7月27日(土)に九州大学病院別府病院視聴覚ホ�
 date: 2019-07-28 12:00:00 +0900
 last_modified_at: 2019-07-28 12:00:00 +0900
 categories: news
-tags: conference, presentation, symposium
+tags: conference, presentation
 comments: true
 ---
 

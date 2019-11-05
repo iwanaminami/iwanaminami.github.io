@@ -1,0 +1,29 @@
+---
+layout: post
+title: "第67回日本ウイルス学会学術集会に参加し発表を行いました"
+description: 2019年10月29日(火)から10月31日(木)にタワーホール船橋にて開催された第67回日本ウイルス学会学術集会に参加し、発表を行いました。
+date: 2019-11-05 13:00:00 +0900
+last_modified_at: 2019-11-05 13:00:00 +0900
+categories: news
+tags: conference, presentation
+comments: true
+---
+
+## 発表詳細
+
+|||
+:---|:---
+Author(s):|**岩波 翔也**、北川 耕咲、大橋 啓史、浅井 雄介、渡士 幸一、岩見 真吾
+Title:|感染動態の定量的解析によるHCV JFH-1株とJc1株の比較
+Conference:|第67回日本ウイルス学会学術集会
+Session:|一般講演 [O1-5]Hepatitis 1
+Place:|タワーホール船橋
+Date:|2019年10月29日(火)
+
+---
+
+## 関連リンク
+
+[第67回日本ウイルス学会学術集会](https://confit.atlas.jp/guide/event/jsv67/top)
+
+[日本ウイルス学会](http://jsv.umin.jp/)

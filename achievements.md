@@ -123,16 +123,16 @@ permalink: /achievements/
 {% assign prize_count = site.data.prize.size %}
 {% for article in site.data.prize %}
   <tr>
-    <th class="p-1 align-top text-center"><p class="m-0">[{{ prize_count | plus: dec_prize }}]</p></th>
-    <td class="p-1">
+    <th>[{{ prize_count | plus: dec_prize }}]</th>
+    <td>
       {% if article.name %}
-      <p class="m-0 font-weight-bold">{% if article.website %}<a href="{{ article.website }}">{{ article.name }}</a>{% else %}{{ article.name }}{% endif %}</p>
+      <strong>{% if article.website %}<a href="{{ article.website }}">{{ article.name }}</a>{% else %}{{ article.name }}{% endif %}</strong>,
       {% endif %}
       {% if article.date %}
-      <p class="m-0">{{ article.date | date: "%Y年%-m月%-d日" }}</p>
+      {{ article.date | date: "%Y年%-m月%-d日" }},
       {% endif %}
       {% if article.organizer %}
-      <p class="m-0">{{ article.organizer }}</p>
+      {{ article.organizer }}
       {% endif %}
     </td>
   </tr>

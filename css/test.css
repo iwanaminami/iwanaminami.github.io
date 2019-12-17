@@ -17,6 +17,10 @@ a:hover{
 	color: #000000;
 }
 
+.border_container img{
+  width: 100%;
+}
+
 footer{
   text-align: center;
 }

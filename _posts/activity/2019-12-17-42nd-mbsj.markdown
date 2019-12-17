@@ -1,0 +1,18 @@
+---
+layout: post
+title: "第42回日本分子生物学会年会に参加しました"
+description: 2019年12月3日(火)から12月6日(金)に福岡国際会議場・福岡サンパレス ホテル&ホール・マリンメッセ福岡にて開催された第42回日本分子生物学会年会に参加しました。
+date: 2019-12-17 14:00:00 +0900
+last_modified_at: 2019-12-17 14:00:00 +0900
+categories: news
+tags: conference
+comments: true
+---
+
+
+
+## 関連リンク
+
+[第42回日本分子生物学会年会](https://www2.aeplan.co.jp/mbsj2019/)
+
+[日本分子生物学会](https://www.mbsj.jp/)

@@ -1,0 +1,28 @@
+---
+layout: post
+title: "2019年度応用数学合同研究集会に参加し発表を行いました"
+description: 2019年12月12日(木)から12月14日(土)に龍谷大学瀬田キャンパスにて開催された2019年度応用数学合同研究集会に参加し発表を行いました。
+date: 2019-12-17 15:00:00 +0900
+last_modified_at: 2019-12-17 15:00:00 +0900
+categories: news
+tags: conference, presentation
+comments: true
+---
+
+## 発表詳細
+
+|||
+:---|:---
+Author(s):|**岩波 翔也**, 北川 耕咲, 大橋 啓史, 中岡 慎治, 浅井 雄介, 渡士 幸一, 岩見 真吾
+Title:|マルチスケールモデルを用いた定量的解析による C 型肝炎ウイルスの増殖戦略の解明
+Conference:|2019年度応用数学合同研究集会
+Place:|龍谷大学瀬田キャンパス
+Date:|2019年12月13日(金)
+
+---
+
+## 関連リンク
+
+[2019年度応用数学合同研究集会](http://infoshako.sk.tsukuba.ac.jp/~cam/2019/)
+
+[日本数学会応用数学分科会](https://mathsoc.jp/section/appliedmath/index.htm)

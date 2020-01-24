@@ -1,9 +1,10 @@
 <div class="border_container">
   <h2 class="border_heading">News</h2>
   <section class="" id="news">
-    {% if site.tags.nextevent %}
+
     <div class="news-description2">
       <h3>お知らせ</h3>
+      {% if site.tags.nextevent %}
       {% for post in site.tags.nextevent limit:10 %}
       <div class="news_image_box">
         <a href="{{ post.url }}">
@@ -14,8 +15,11 @@
       <p>{{ post.description }}</p>
       <a class="" href="{{ post.url }}" role="button">詳細</a>
       {% endfor %}
+      {% else %}
+      <p>現在お知らせはありません。</p>
+      {% endif %}
     </div>
-    {% endif %}
+
     <div class="news-description2">
       <h3>新着情報</h3>
       <table class="news_table">

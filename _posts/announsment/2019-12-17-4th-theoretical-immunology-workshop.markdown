@@ -6,7 +6,7 @@ date: 2019-12-17 01:28:37 +0900
 date_news: "2019.12.17"
 last_modified_at: 2019-12-17 01:28:37 +0900
 categories: event
-tags: nextevent
+tags: 
 image: https://workshop.theoreticalimmunology.jp/assets/images/logo3-1.png
 comments: true
 ---

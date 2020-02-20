@@ -13,22 +13,20 @@ comments: true
 
 |||
 :---|:---
-Conference:|第４回理論免疫学ワークショップ
-Organizer:|**岩波 翔也**, 九州大学大学院システム生命学府
-Place:|Hotel芙蓉倶楽部 和DINING わか葉
-Date:|2020年1月10日(金), 2020年1月11日(土)
-Website:|[https://workshop.theoreticalimmunology.jp/](https://workshop.theoreticalimmunology.jp/)
-Financial Support:|新学術領域「細胞ダイバース」, 九州大学QRプログラム
+Conference:|新学術領域「細胞ダイバース」第３回若手ワークショップ
+Organizer:|新学術領域研究 細胞社会ダイバーシティーの統合的解明と制御
+Place:|KKRホテル熱海
+Date:|2020年2月12日(水), 2020年2月13日(木)
 
 ## 発表詳細
 
 |||
 :---|:---
 Author(s):|**岩波 翔也**, 山本 玲, 波江野 洋, 岩見 真吾
-Title:|１造血幹細胞移植実験のデータ解析と造血幹細胞の老化
-Conference:|第４回理論免疫学ワークショップ
-Place:|Hotel芙蓉倶楽部 和DINING わか葉
-Date:|2020年1月11日(土)
+Title:|移植実験のデータ解析と加齢に伴う造血幹細胞の変化の解明
+Conference:|新学術領域「細胞ダイバース」第３回若手ワークショップ
+Place:|KKRホテル熱海
+Date:|2020年2月12日(水)
 
 ---
 

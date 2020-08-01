@@ -23,17 +23,14 @@
     <div class="news-description2">
       <h3>新着情報</h3>
       <table class="news_table">
-        {% for post in site.categories.news limit:8 %}
+        {% for post in site.categories.news limit:5 %}
         <tr class="news_cell">
           <th>{{ post.date | date: "%Y.%m.%d" }}</th>
           <td>{% if post.categories[1] %}<a href="/{{ post.categories[1] }}/"><strong>[{{ post.categories[1] }}] </strong></a>{% endif %}{{ post.description }}<a href="{{ post.url }}"> [詳細]</a></td>
         </tr>
         {% endfor %}
-        <tr class="news_cell">
-          <th>その他</th>
-          <td><a href="/news">- 過去の新着情報 -</a></td>
-        </tr>
       </table>
+      <p><a href="/news">- 過去の新着情報 -</a></p>
     </div>
   </section>
 

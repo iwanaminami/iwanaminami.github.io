@@ -29,6 +29,10 @@ footer p{
   text-align: justify;
 }
 
+tr, td{
+  vertical-align: top;
+}
+
 .container_full{
   width: 100%;
 }

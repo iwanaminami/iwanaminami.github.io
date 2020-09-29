@@ -1,0 +1,21 @@
+---
+layout: post
+title: "学位を取得しました"
+description: 2020年9月25日に行われた学位記授与式にて学位を取得しました。
+date: 2020-09-29 12:00:00 +0900
+last_modified_at: 2020-09-29 12:00:00 +0900
+categories: news
+tags: paper
+comments: true
+---
+
+## 学位
+
+博士（理学）
+
+---
+
+## 関連リンク
+
+令和２年度秋季学位記授与式の様子  
+[https://www.kyushu-u.ac.jp/ja/notices/view/1715](https://www.kyushu-u.ac.jp/ja/notices/view/1715)

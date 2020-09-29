@@ -47,4 +47,6 @@ EurekAlert
 
 ## 関連リンク
 
-[文部科学省 新学術領域研究\(研究領域提案型\) 細胞社会ダイバーシティーの統合的解明と制御（細胞ダイバース）領域代表：藤田直也](http://cdiversity.umin.jp/)
+- [PLOS Biology](https://journals.plos.org/plosbiology/)
+- [PLOS](https://plos.org/)
+- [九州大学数理生物学研究室](http://bio-math10.biology.kyushu-u.ac.jp/)

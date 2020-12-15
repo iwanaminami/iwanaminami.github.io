@@ -1,31 +1,5 @@
 <head>
-	<!-- Google Ads -->
-	<script data-ad-client="ca-pub-6368943295713902" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-	<script>
-		(adsbygoogle = window.adsbygoogle || []).push({
-			google_ad_client: "pub-6368943295713902",
-			enable_page_level_ads: true
-		});
-	</script>
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-85165915-4"></script>
-	<script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-
-  		gtag('config', 'UA-85165915-4');
-		if ('serviceWorker' in navigator) {
-  			navigator.serviceWorker.register('/serviceworker.js').then(function(registration) {
-    			// 登録成功
-    			console.log('ServiceWorker registration successful with scope: ', registration.scope);
-			}).catch(function(err) {
-    			// 登録失敗 :(
-    			console.log('ServiceWorker registration failed: ', err);
-  			});
-		}
-	</script>
+	{% include googletags.html %}
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">

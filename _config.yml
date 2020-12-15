@@ -19,7 +19,7 @@ organizer: 岩波翔也
 affiliation: 九州大学数理生物学研究室
 address: 〒819-0395 福岡市西区元岡744 九州大学伊都キャンパス ウエスト１号館C-911
 description: >- # this means to ignore newlines until "baseurl:"
-  こんにちは。岩波翔也です。九州大学大学院システム生命科学府/数理生物学研究室に所属しています。Shoya Iwanami, Mathematical Biology Labolatory, Graduate School of Systems Life Sciences, Kyushu University, Japan
+  こんにちは。岩波翔也です。九州大学大学院理学研究院生物科学部門/数理生物学研究室に所属しています。Shoya Iwanami, Mathematical Biology Labolatory, Graduate School of Systems Life Sciences, Kyushu University, Japan
 keywords: 岩波翔也,岩波,翔也,九州大学,数理生物,免疫,理論免疫,Shoya Iwanami,Shoya,Iwanami,Kyushu University,Mathematical Biology,Immunology,Theoretical Immunology
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://shoyaiwanami.com" # the base hostname & protocol for your site, e.g. http://example.com

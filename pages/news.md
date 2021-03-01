@@ -7,7 +7,6 @@ last_modified_at: 2019-07-24 01:28:37 +0900
 permalink: /news/
 ---
 
-# {{ page.title }}
 
 {{ page.description }}
 

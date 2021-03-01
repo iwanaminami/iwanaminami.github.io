@@ -7,7 +7,6 @@ last_modified_at: 2019-07-12 01:28:37 +0900
 permalink: /presentation/
 ---
 
-# {{ page.title }}
 
 {{ page.description }}
 

@@ -17,9 +17,11 @@ permalink: /links/
 [Note](https://note.shoyaiwanami.com/) /
 [Memo](https://memo.shoyaiwanami.com/)
 
-[Lab](http://bio-math10.biology.kyushu-u.ac.jp/) /
+[Lab](http://bio-math10.biology.kyushu-u.ac.jp/)
+
 [Google Scholar](https://scholar.google.co.jp/citations?user=Vt5AAPcAAAAJ&hl=en) /
 [ORCiD](https://orcid.org/0000-0003-1474-5348) /
+[Scopus](https://www.scopus.com/authid/detail.uri?authorId=57194052382) /
 [researchmap](https://researchmap.jp/iwanamishoya) /
 [J-GLOBAL](https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001015465097756) /
 [ResearchGate](https://www.researchgate.net/profile/Shoya-Iwanami)
@@ -28,6 +30,8 @@ permalink: /links/
 
 .  
 .
+
+ほか
 
 [第27回日本数理生物学会年会ランチョンセミナー](https://luncheonbiomath.jimdofree.com/) /
 [えこえぴワークショップ](https://ecoepi.jimdofree.com/) /

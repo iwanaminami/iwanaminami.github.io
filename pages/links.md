@@ -17,7 +17,8 @@ permalink: /links/
 [Note](https://note.shoyaiwanami.com/) /
 [Memo](https://memo.shoyaiwanami.com/)
 
-[Lab](http://bio-math10.biology.kyushu-u.ac.jp/)
+[iBLab, Nagoya U (current)](https://iblab.bio.nagoya-u.ac.jp/) /
+[Mathematical Biology Laboratory, Kyushu U (previous)](http://bio-math10.biology.kyushu-u.ac.jp/)
 
 [Google Scholar](https://scholar.google.co.jp/citations?user=Vt5AAPcAAAAJ&hl=en) /
 [ORCiD](https://orcid.org/0000-0003-1474-5348) /

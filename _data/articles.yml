@@ -1,3 +1,30 @@
+- title: Estimation of the incubation period of COVID-19 using viral load data
+  authors: Keisuke Ejima, Kwang Su Kim, Christina Ludema, Ana I. Bento, <b>Shoya Iwanami</b>, Yasuhisa Fujita, Hirofumi Ohashi, Yoshiki Koizumi, Koichi Watashi, Kazuyuki Aihara, Hiroshi Nishiura and Shingo Iwami
+  journal: Epidemics
+  page: "100454"
+  year: "2021"
+  doi: 10.1016/j.epidem.2021.100454
+  url: https://doi.org/10.1016/j.epidem.2021.100454
+  order: "6"
+
+- title: Potential anti-COVID-19 agents, Cepharanthine and Nelfinavir, and their usage for combination treatment
+  authors: Hirofumi Ohashi, Koichi Watashi, Wakana Saso, Kaho Shionoya, <b>Shoya Iwanami</b>, Takatsugu Hirokawa, Tsuyoshi Shirai, Shigehiko Kanaya, Yusuke Ito, Kwang Su Kim, Takao Nomura, Tateki Suzuki, Kazane Nishioka, Shuji Ando, Keisuke Ejima, Yoshiki Koizumi, Tomohiro Tanaka, Shin Aoki, Kouji Kuramochi, Tadaki Suzuki, Takao Hashiguchi, Katsumi Maenaka, Tetsuro Matano, Masamichi Muramatsu, Masayuki Saijo, Kazuyuki Aihara, Shingo Iwami, Makoto Takeda, Jane A. McKeating and Takaji Wakita
+  journal: iScience
+  page: "102367"
+  year: "2021"
+  doi: 10.1016/j.isci.2021.102367
+  url: https://doi.org/10.1016/j.isci.2021.102367
+  order: "5"
+
+- title: A quantitative model used to compare within-host SARS-CoV-2, MERS-CoV, and SARS-CoV dynamics provides insights into the pathogenesis and treatment of SARS-CoV-2
+  authors: Kwang Su Kim, Keisuke Ejima, <b>Shoya Iwanami</b>, Yasuhisa Fujita, Hirofumi Ohashi, Yoshiki Koizumi, Yusuke Asai, Shinji Nakaoka, Koichi Watashi, Kazuyuki Aihara, Robin N. Thompson, Ruian Ke, Alan S. Perelson and Shingo Iwami
+  journal: PLOS Biology
+  page: "19(3): e3001128"
+  year: "2021"
+  doi: 10.1371/journal.pbio.3001128
+  url: https://doi.org/10.1371/journal.pbio.3001128
+  order: "4"
+
 - title: Should a viral genome stay in the host cell or leave? A quantitative dynamics study of how hepatitis C virus deals with this dilemma
   authors: <b>Shoya Iwanami</b>, Kosaku Kitagawa, Hirofumi Ohashi, Yusuke Asai, Kaho Shionoya, Wakana Saso, Kazane Nishioka, Hisashi Inaba, Shinji Nakaoka, Takaji Wakita, Odo Diekmann, Shingo Iwami and Koichi Watashi
   journal: PLOS Biology
@@ -6,6 +33,7 @@
   doi: 10.1371/journal.pbio.3000562
   url: https://doi.org/10.1371/journal.pbio.3000562
   order: "3"
+
 - title: Revealing uninfected and infected target cell dynamics from peripheral blood data in highly and less pathogenic simian/human immunodeficiency virus infected <i>Rhesus macaque</i>
   authors: Hara A., <b>Iwanami S.</b>, Ito Y., Miura T., Nakaoka S., and Iwami S.
   journal: Journal of Theoretical Biology
@@ -14,6 +42,7 @@
   doi: 10.1016/j.jtbi.2019.07.005
   url: https://doi.org/10.1016/j.jtbi.2019.07.005
   order: "2"
+
 - title: A highly pathogenic simian/human immunodeficiency virus effectively produces infectious virions compared with a less pathogenic virus in cell culture
   authors: <b>Iwanami S.</b>, Kakizoe Y., Morita S., Miura T., Nakaoka S., and Iwami S.
   journal: Theoretical Biology and Medical Modeling

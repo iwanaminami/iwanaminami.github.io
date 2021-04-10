@@ -1,0 +1,22 @@
+---
+layout: post
+title: "名古屋大学大学院理学研究科生命理学専攻の助教に着任しました"
+description: 2021年4月1日から異分野融合生物学講座（iBLab）がスタートし、名古屋大学大学院理学研究科生命理学専攻の助教に着任しました。
+date: 2021-04-01 12:00:00 +0900
+last_modified_at: 2021-04-01 12:00:00 +0900
+categories: news
+tags: 
+comments: true
+---
+
+## 新しい所属
+
+名古屋大学大学院理学研究科生命理学専攻・助教
+
+異分野融合生物学分野（[iBLab](https://iblab.bio.nagoya-u.ac.jp/)）
+
+---
+
+## 関連リンク
+
+[iBLab](https://iblab.bio.nagoya-u.ac.jp/)

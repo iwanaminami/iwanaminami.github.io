@@ -11,7 +11,8 @@ permalink: /links/
 {{ page.description }}
 
 [Twitter](https://twitter.com/iwanami13) /
-[GitHub](https://github.com/iwanaminami)
+[GitHub](https://github.com/iwanaminami) /
+[LinkedIn](https://www.linkedin.com/in/shoyaiwanami/)
 
 [English site](https://en.shoyaiwanami.com/) /
 [Note](https://note.shoyaiwanami.com/) /

@@ -1,3 +1,21 @@
+- title: Mefloquine, a potent anti-severe acute respiratory syndrome-related coronavirus 2 (SARS-CoV-2) drug as an entry inhibitor <i>in vitro</i>
+  authors: Kaho Shionoya, Masako Yamasaki, <b>Shoya Iwanami</b>, Yusuke Ito, Shuetsu Fukushi, Hirofumi Ohashi, Wakana Saso, Tomohiro Tanaka, Shin Aoki, Kouji Kuramochi, Shingo Iwami, Yoshimasa Takahashi, Tadaki Suzuki, Masamichi Muramatsu, Makoto Takeda, Takaji Wakita and Koichi Watashi
+  journal: Frontiers in Microbiology
+  page: "12:651403"
+  year: "2021"
+  doi: 10.3389/fmicb.2021.651403
+  url: https://doi.org/10.3389/fmicb.2021.651403
+  order: "8"
+
+- title: Time variation in the probability of failing to detect a case of polymerase chain reaction testing for SARS-CoV-2 as estimated from a viral dynamics model
+  authors: Keisuke Ejima<sup>†</sup>, Kwang Su Kim<sup>†</sup>, <b>Shoya Iwanami</b><sup>†</sup>, Yasuhisa Fujita, Ming Li, Roger S. Zoh, Kazuyuki Aihara, Taiga Miyazaki, Takaji Wakita and Shingo Iwami (<sup>†</sup>These authors contributed equally to this work.)
+  journal: Journal of the Royal Society Interface
+  page: "18: 20200947. 20200947."
+  year: "2021"
+  doi: 10.1098/rsif.2020.0947
+  url: https://doi.org/10.1098/rsif.2020.0947
+  order: "7"
+
 - title: Estimation of the incubation period of COVID-19 using viral load data
   authors: Keisuke Ejima, Kwang Su Kim, Christina Ludema, Ana I. Bento, <b>Shoya Iwanami</b>, Yasuhisa Fujita, Hirofumi Ohashi, Yoshiki Koizumi, Koichi Watashi, Kazuyuki Aihara, Hiroshi Nishiura and Shingo Iwami
   journal: Epidemics

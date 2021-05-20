@@ -10,23 +10,34 @@ permalink: /links/
 
 {{ page.description }}
 
+### Official pages
+
+[iBLab, Nagoya U (current)](https://iblab.bio.nagoya-u.ac.jp/) /
+[Mathematical Biology Laboratory, Kyushu U (previous)](http://bio-math10.biology.kyushu-u.ac.jp/)
+
+### SNS etc.
+
 [Twitter](https://twitter.com/iwanami13) /
 [GitHub](https://github.com/iwanaminami) /
 [LinkedIn](https://www.linkedin.com/in/shoyaiwanami/)
+
+### My pages
 
 [English site](https://en.shoyaiwanami.com/) /
 [Note](https://note.shoyaiwanami.com/) /
 [Memo](https://memo.shoyaiwanami.com/)
 
-[iBLab, Nagoya U (current)](https://iblab.bio.nagoya-u.ac.jp/) /
-[Mathematical Biology Laboratory, Kyushu U (previous)](http://bio-math10.biology.kyushu-u.ac.jp/)
+### Web data base
 
+[Nagoya U data base](https://profs.provost.nagoya-u.ac.jp/html/100011695_ja.html) /
 [Google Scholar](https://scholar.google.co.jp/citations?user=Vt5AAPcAAAAJ&hl=en) /
 [ORCiD](https://orcid.org/0000-0003-1474-5348) /
 [Scopus](https://www.scopus.com/authid/detail.uri?authorId=57194052382) /
 [researchmap](https://researchmap.jp/iwanamishoya) /
 [J-GLOBAL](https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001015465097756) /
 [ResearchGate](https://www.researchgate.net/profile/Shoya-Iwanami)
+
+### Workshop
 
 [理論免疫学ワークショップ](https://workshop.theoreticalimmunology.jp/)
 

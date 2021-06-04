@@ -1,43 +1,18 @@
-<section class="news" id="news">
-  <h2 class="current-news">News</h2>
-  {% if site.tags.nextevent %}
-  <div class="news-description pb-0 pt-1">
-    <hr class="border-light">
-    <h3>お知らせ</h3>
-    {% for post in site.tags.nextevent limit:10 %}
-    <div class="container-fluid">
-      <div class="row mb-4">
-        <div class="col-md-2">
-          <div class="news_image_box">
-            <a href="{{ post.url }}">
-              <img class="" src="{% if post.image %}{{ post.image }}{% else %}/images/top.png{% endif %}" alt="{{ post.title }}">
-            </a>
-          </div>
-        </div>
-        <div class="col-md-10">
-          <p class="mt-1"><strong>{{ post.title }}</strong></p>
-          <p>{{ post.description }}</p>
-          <a class="btn btn-secondary" href="{{ post.url }}" role="button">詳細</a>
-        </div>
-      </div>
-    </div>
-    {% endfor %}
+<section class="" id="information">
+  <div class="head-border">
+    <h2 class="">Information</h2>
   </div>
-  {% endif %}
-  <div class="news-description">
-    <hr class="border-light">
-    <h3>新着情報</h3>
-    <table class="news_table">
-      {% for post in site.categories.news limit:8 %}
-      <tr class="news_cell">
+  
+  <div class="wrapper_half">
+    <table class="">
+      {% for post in site.categories.news limit:5 %}
+      <tr class="">
         <th>{{ post.date | date: "%Y.%m.%d" }}</th>
-        <td>{% if post.categories[1] %}<a href="/{{ post.categories[1] }}/"><strong>[{{ post.categories[1] }}] </strong></a>{% endif %}{{ post.description }}<a href="{{ post.url }}"> [詳細]</a></td>
+        <td>{{ post.description }}<br><a href="{{ post.url }}">[詳細]</a></td>
       </tr>
       {% endfor %}
-      <tr class="news_cell">
-        <th>その他</th>
-        <td><a href="/news">- 過去の新着情報 -</a></td>
-      </tr>
     </table>
+    <p style="text-align: center;"><a href="/information">- More information -</a></p>
   </div>
+  
 </section>

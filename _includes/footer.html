@@ -1,51 +1,46 @@
-<footer class="pb-0" id="contact">
-  <div class="container-fluid text-center bg-light pt-5 pb-5">
-    <div class="row">
-      <div class="col-md-6 pt-5 pb-5">
-        <article class="">
-          <h3>MY INFO</h3>
-          <img src="/images/myphoto.jpg" alt="" width="400" height="200" class="cards"/>
-          <p class="text-justify pr-sm-3 pl-sm-3 pr-xl-5 pl-xl-5">九州大学大学院システム生命科学府５年一貫制博士課程４年 / 数理生物学研究室所属 / 連絡先: iwanamishoya[at]gmail.com ([at]を@に変えてください。) / 理論免疫学の研究を中心に行っています</p>
-        </article>
+<footer>
+  <div class="wrapper_half">
+    <h3><a href="/">shoyaiwanami.com</a></h3>
+    
+    <div class="footer_container">
+      <div class="footer_item">
+        {% for items in site.data.nav %}
+        <p><a href="{{ items.url }}">{{ items.name }}</a></p>
+        {% endfor %}
       </div>
-      <div class="col-md-6 pt-5 pb-5">
-        <article class="">
-          <h3>LOCATION</h3>
-          <img src="/images/kyushuuni.jpg" alt="" width="400" height="200" class="cards"/>
-          <p class="text-justify pr-sm-3 pl-sm-3 pr-xl-5 pl-xl-5">福岡の西側自然豊かな糸島に位置する九州大学伊都キャンパスで研究活動を行なっています / 大学住所: 〒819-0395 福岡市西区元岡744 数理生物学研究室</p>
-        </article>
+      
+      <div class="footer_item">
+        <h4>Bookmarks</h4>
+        {% for items in site.data.bookmarks %}
+        <p><a href="{{ items.url }}">{{ items.name }}</a></p>
+        {% endfor %}
       </div>
+      
+      <div class="footer_item">
+        <h4>Web data base</h4>
+        {% for items in site.data.links[3].links %}
+        <p><a href="{{ items.url }}"{% if page.url == items.url %} class="active"{% endif %}>{{ items.name }}</a></p>
+        {% endfor %}
+      </div>
+      
+      <div class="footer_item footer_info">
+        <h4>{{ site.organizer }}</h4>
+        <p>{{ site.affiliation }}</p>
+        <p><a href="{{ site.laboratory.url }}">{{ site.laboratory.name_jp }}</a></p>
+        <p>{{ site.email }}</p>
+        <p class="footer_sns">
+          {% for items in site.data.sns_footer %}
+          <a href="{{ items.url }}">{{ items.icon }}</a>
+          {% endfor %}
+        </p>
+      </div>
+    </div>
+    
+    <!-- Copyrights Section -->
+    <hr>
+    <div class="copyright">
+      <p>Copyright &copy; {{ "now" | date: "%Y" }} Shoya Iwanami All rights reserved. Latest update: {{ "now" | date: "%Y-%m-%d" }} </p>
     </div>
   </div>
-  <section class="bg-dark text-light text-center pt-5 pb-5">
-    <h2 class="">リンク</h2>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-3 col-sm-6 pt-5 pb-5">
-          <div><h4 class="">理論免疫学ワークショップ</h4>
-          <a href="https://workshop.theoreticalimmunology.jp" target="_blank" class="button w-100">Theoretical Immunology Workshop</a></div>
-        </div>
-        <div class="col-lg-3 col-sm-6 pt-5 pb-5">
-          <div><h4 class="">English website</h4>
-          <a href="https://en.shoyaiwanami.com" target="_blank" class="button w-100">En .shoyaIWANAMI .com</a></div>
-        </div>
-        <div class="col-lg-3 col-sm-6 pt-5 pb-5">
-          <div><h4 class="">ノート</h4>
-          <a href="https://note.shoyaiwanami.com" target="_blank" class="button w-100">NOTE .shoyaiwanami .com</a></div>
-        </div>
-        <div class="col-lg-3 col-sm-6 pt-5 pb-5">
-          <div><h4 class="">ブログ・備忘録</h4>
-          <a href="https://memo.shoyaiwanami.com" target="_blank" class="button w-100">AmebaOwnd</a></div>
-        </div>
-      </div>
-    </div>
-  </section>
 </footer>
 <!-- Footer Section -->
-
-
-<!-- Copyrights Section -->
-<div class="copyright">
-  <p>最終更新日：2019年8月5日</p>
-  &copy;2018-2020 | <strong>Shoya Iwanami</strong>
-</div>

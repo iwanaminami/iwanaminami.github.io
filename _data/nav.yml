@@ -1,0 +1,14 @@
+- name: Home
+  url: /
+
+- name: Information
+  url: /information
+
+- name: Biography
+  url: /biography
+
+- name: Achievements
+  url: /achievements
+
+- name: Links
+  url: /links

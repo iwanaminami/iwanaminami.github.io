@@ -1,0 +1,25 @@
+- name: twitter
+  username: iwanami13
+  url: https://twitter.com/iwanami13
+  icon: <i class="fab fa-twitter"></i>
+
+- name: github
+  username: iwanaminami
+  url: https://github.com/iwanaminami
+  icon: <i class="fab fa-github"></i>
+
+- name: LinkdIn
+  username: shoyaiwanami
+  url: https://www.linkedin.com/in/shoyaiwanami/
+  icon: <i class="fab fa-linkedin-in"></i>
+  
+- name: ORCiD
+  username: 0000-0003-1474-5348
+  url: https://orcid.org/0000-0003-1474-5348
+  icon: <i class="fab fa-orcid"></i>
+
+- name: ResearchGate
+  username: Shoya-Iwanami
+  url: https://www.researchgate.net/profile/Shoya-Iwanami
+  icon: <i class="fab fa-researchgate"></i>
+  

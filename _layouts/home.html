@@ -2,39 +2,25 @@
 layout: main
 ---
 
-<div class="fixed-top bg-white d-table-cell align-middle nav_container">
-	{% include nav-home.html %}
-</div>
-
-<div id="top" class="container-fluid vh-100 text-dark bg-white toppage_top">
-	<div class="row">
-		<div class="offset-lg-7">
-			<!-- デスクトップ以上で≥768px空白、それ以外非表示 -->
-		</div>
-		<div class="col-lg-5">
-			<div class="d-table-cell vh-100 align-middle">
-				<div class="toppage_head">
-					<h3 class="mt-0 mb-0" style="">ShoyaIWANAMI.com</h3>
-					<h2>Welcome to Shoya Iwanami's web page</h2>
-					<p>A researcher of Mathematical Biology</p>
-				</div>
-			</div>
+<div class="img_home_top">
+	<div class="inner_home_top">
+		<div class="content_home_top">
+			<h2>IWANAMI, Shoya</h2>
+			<h3>岩波 翔也</h3>
 		</div>
 	</div>
 </div>
 
-<div class="two-col-container">
-
+<div class="wrapper_half">
 	{{ content }}
-
-
-	<!-- footer -->
-	{% include footer.html %}
-	<!-- footer -->
-
-	<div style="height: 150px"></div>
-	<div id="page_top"><a href="#"></a></div>
-	<div id="about_button"><a href="#about"></a></div>
-	<div id="contact_button"><a href="#contact"></a></div>
-	
 </div>
+
+<div class="wrapper_half">
+	{% include stats.html %}
+</div>
+
+{% include basicinfo.html %}
+
+{% include selectednews.html %}
+
+{% include selectedachievements.html %}

@@ -2,25 +2,24 @@
 layout: main
 ---
 
-<div class="container_limited">
-  <div class="border_container">
-    <h2 class="border_heading">Post</h2>
-    <h1>{{ page.title }}</h1>
-    <p class="">公開: {{ page.date | date: "%Y年%-m月%-d日" }} | 更新: {{ page.last_modified_at | date: "%Y年%-m月%-d日" }}</p>
-    <div style="height: 20px;"></div>
-    <p>{{ page.description }}</p>
-    {{ content }}
-  </div>
-  {% include nextandpreviouspost.html %}
-  {% include disqus.html %}
-
+<div class="wrapper_half post">
+	
+	{% if page.image %}
+	<img src="{{ page.image }}" alt="">
+	{% else %}
+	<img src="/images/post_default.jpg" alt="">
+	{% endif %}
+	
+	<h2>{{ page.title }}</h2>
+	<p>
+		<time><small>{{ page.date | date:"%Y年%-m月%-d日"}}</small></time>
+		<time><small>｜更新：{{ page.date | date:"%Y年%-m月%-d日"}}</small></time>
+	</p>
+	
+	<hr>
+	
+	<p>{{ page.description }}</p>
+	
+	
+	{{ content }}
 </div>
-
-
-<!-- footer -->
-{% include footer2.html %}
-<!-- footer -->
-<div style="height: 150px"></div>
-<div id="page_top"><a href="/#"></a></div>
-<div id="about_button"><a href="/#about"></a></div>
-<div id="contact_button"><a href="/#contact"></a></div>

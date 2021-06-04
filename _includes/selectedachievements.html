@@ -1,104 +1,26 @@
-<div class="pt-5 pb-5 pr-3 pl-3 pr-lg-5 pl-lg-5 m-lg-5 bg-white" id="achievements">
-  <h2>Achievements</h2>
-  <p><a href="/achievements/">研究業績一覧</a></p>
-  <h3>Publications</h3>
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-xl-6">
-        <h4>原著論文</h4>
-        {% for article in site.data.articles limit:3 %}
-        <p>
-        {% if article.title %}
-        <strong>{{ article.title }}</strong><br>
-        {% endif %}
-        {% if article.authors %}
-        {{ article.authors }}<br>
-        {% endif %}
-        {% if article.journal %}
-        <i>{{ article.journal }}</i>
-        {% if article.page %}
-        {{ article.page }}
-        {% endif %}
-        <br>
-        {% endif %}
-        {% if article.publisher %}
-        {{ article.publisher }}
-        {% endif %}
-        {% if article.year %}
-        ({{ article.year }})<br>
-        {% endif %}
-        {% if article.doi %}
-        DOI: <a href="{{ article.url }}" target="_blank">{{ article.doi }}</a>
-        {% endif %}
-        </p>
-        {% endfor %}
-        <a href="/achievements/#achievements_articles">原著論文一覧 ></a>
-      </div>
-      <div class="col-xl-6">
-        <h4>総説</h4>
-        {% for article in site.data.reviews limit:2 %}
-        <p>
-          {% if article.title %}
-          <strong>{{ article.title }}</strong><br>
-          {% endif %}
-          {% if article.authors %}
-          {{ article.authors }}<br>
-          {% endif %}
-          {% if article.journal %}
-          <i>{{ article.journal }}</i>
-          {% if article.page %}
-          {{ article.page }}
-          {% endif %}
-          <br>
-          {% endif %}
-          {% if article.publisher %}
-          {{ article.publisher }}
-          {% endif %}
-          {% if article.year %}
-          ({{ article.year }})<br>
-          {% endif %}
-          {% if article.doi %}
-          DOI: <a href="{{ article.url }}" target="_blank">{{ article.doi }}</a>
-          {% endif %}
-        </p>
-        {% endfor %}
-        <a href="/achievements/#achievements_reviews">総説一覧 ></a>
-        <h4>日本語論文</h4>
-        {% for article in site.data.jparticles limit:2 %}
-        <p>
-          {% if article.title %}
-          <strong>{{ article.title }}</strong><br>
-          {% endif %}
-          {% if article.authors %}
-          {{ article.authors }}<br>
-          {% endif %}
-          {% if article.journal %}
-          <i>{{ article.journal }}</i>
-          {% if article.page %}
-          {{ article.page }}
-          {% endif %}
-          <br>
-          {% endif %}
-          {% if article.publisher %}
-          {{ article.publisher }}
-          {% endif %}
-          {% if article.year %}
-          ({{ article.year }})<br>
-          {% endif %}
-          {% if article.doi %}
-          DOI: <a href="{{ article.url }}" target="_blank">{{ article.doi }}</a><br>
-          {% endif %}
-          {% if article.repository %}
-          <a href="{{ article.url }}" target="_blank">{{ article.repository }}</a>
-          {% endif %}
-        </p>
-        {% endfor %}
-        <a href="/achievements/#achievements_jparticles">日本語論文一覧 ></a>
-      </div>
-    </div>
+<section class="" id="achievements">
+  <div class="head-border">
+    <h2 class="">Recent publications</h2>
   </div>
-
-
-
-
-</div>
+  
+  <div class="wrapper_half">
+    {% for article in site.data.articles limit:4 %}
+    <p>
+    {% if article.title %}
+    {{ article.title }}<br>
+    {% endif %}
+    {% if article.journal %}
+    <strong><i>{{ article.journal }}</i></strong>
+    {% endif %}
+    {% if article.year %}
+    ({{ article.year }})<br>
+    {% endif %}
+    {% if article.doi %}
+    DOI: <a href="{{ article.url }}" target="_blank">{{ article.doi }}</a>
+    {% endif %}
+    </p>
+    {% endfor %}
+    <p style="text-align: center;"><a href="/achievements">- Achievements -</a></p>
+  </div>
+  
+</section>

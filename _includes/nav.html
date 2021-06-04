@@ -1,52 +1,11 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-white flex-column pl-0 pr-0">
-  <div class="w-100 mt-lg-3 text-center flex-row">
-    <div class="d-lg-block d-inline text-center">
-      <a class="navbar-brand mr-0" href="/#">
-        <img src="/images/top.png" alt="shoyaiwanami.com">
-      </a>
-    </div>
-    <div class="d-lg-block d-inline text-center">
-      <a class="navbar-brand mr-0" href="/#">
-        <h2 class="mt-1 mb-0 mb-lg-1 text-weight-bold" style="font-size: 14px">ShoyaIWANAMI.com</h2>
-      </a>
-    </div>
-  </div>
 
-  <button class="navbar-toggler d-none" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse d-lg-none w-100 mt-5" id="navbarNav">
-    <ul class="navbar-nav flex-column w-100">
-      <li class="nav-item mt-2 mb-2">
-        <a class="nav_link_original" href="/#top">
-          <h4 class="mt-0 mb-0">TOP</h4>
-          <p class="mt-0 mb-0">トップ</p>
-        </a>
-      </li>
-      <li class="nav-item mt-2 mb-2">
-        <a class="nav_link_original" href="/#about">
-          <h4 class="mt-0 mb-0">ABOUT</h4>
-          <p class="mt-0 mb-0">来歴</p>
-        </a>
-      </li>
-      <li class="nav-item mt-2 mb-2">
-        <a class="nav_link_original" href="/#news">
-          <h4 class="mt-0 mb-0">NEWS</h4>
-          <p class="mt-0 mb-0">新着情報</p>
-        </a>
-      </li>
-      <li class="nav-item mt-2 mb-2">
-        <a class="nav_link_original" href="/#achievements">
-          <h4 class="mt-0 mb-0">ACHIEVEMENTS</h4>
-          <p class="mt-0 mb-0">業績</p>
-        </a>
-      </li>
-      <li class="nav-item mt-2 mb-2">
-        <a class="nav_link_original" href="/#contact">
-          <h4 class="mt-0 mb-0">CONTACT</h4>
-          <p class="mt-0 mb-0">連絡先</p>
-        </a>
-      </li>
+<nav>
+  <div class="wrapper_half">
+    <img src="/images/top.png" alt="">
+    <ul>
+      {% for items in site.data.nav %}
+      <li><a href="{{ items.url }}"{% if page.url == items.url %} class="active"{% endif %}>{{ items.name }}</a></li>
+      {% endfor %}
     </ul>
   </div>
 </nav>

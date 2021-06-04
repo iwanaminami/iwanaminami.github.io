@@ -1,47 +1,41 @@
-<div class="container-fluid text-center pt-5 pb-5" style="z-index: -2;">
-  <div class="row">
-    <div class="col-lg-3 col-sm-6 position-relative">
+<div class="stats_wrapper">
+  <div class="stats_column">
+    <div class="stats_content">
       {% assign stats_pub_article = site.data.articles | size %}
       {% assign stats_pub_jparticle = site.data.jparticles | size %}
       {% assign stats_pub_review = site.data.reviews | size %}
-      <div class="position-absolute m-auto" style="left: 0; right: 0; z-index: -1;">
-        <p class="m-auto text-black-50 font-weight-bold" style="line-height: 1; font-size: 120px;">{{ stats_pub_article | plus: stats_pub_jparticle | plus: stats_pub_review }}</p>
-      </div>
-      <div class="" style="height: 100px; line-height: 100px; background-color: rgb(256, 256, 256, 0)">
-        <h3 class="d-inline-block align-middle mt-0 mb-0 font-weight-bold" style="">Publications</h3>
-      </div>
-      <p class="m-0">英語/日本語学術論文・総説</p>
+      <p class="stats_value">{{ stats_pub_article | plus: stats_pub_jparticle | plus: stats_pub_review }}</p>
     </div>
-    <div class="col-lg-3 col-sm-6 position-relative">
+    <div class="stats_content">
+      <p>Publications</p>
+    </div>
+  </div>
+  <div class="stats_column">
+    <div class="stats_content">
       {% assign stats_presen_international = site.data.presentations.international | size %}
       {% assign stats_presen_domestic = site.data.presentations.domestic | size %}
-      <div class="position-absolute m-auto" style="left: 0; right: 0; z-index: -1;">
-        <p class="m-auto text-black-50 font-weight-bold" style="line-height: 1; font-size: 120px;">{{ stats_presen_international | plus: stats_presen_domestic }}</p>
-      </div>
-      <div class="" style="height: 100px; line-height: 100px;">
-        <h3 class="d-inline-block align-middle mt-0 mb-0 font-weight-bold" style="">Presentations</h3>
-      </div>
-      <p class="m-0">国際/国内学術会議での発表</p>
+      <p class="stats_value">{{ stats_presen_international | plus: stats_presen_domestic }}</p>
     </div>
-    <div class="col-lg-3 col-sm-6 position-relative">
+    <div class="stats_content">
+      <p>Presentations</p>
+    </div>
+  </div>
+  <div class="stats_column">
+    <div class="stats_content">
       {% assign stats_grant = site.data.grants | size %}
-      <div class="position-absolute m-auto" style="left: 0; right: 0; z-index: -1;">
-        <p class="m-auto text-black-50 font-weight-bold" style="line-height: 1; font-size: 120px;">{{ stats_grant }}</p>
-      </div>
-      <div class="" style="height: 100px; line-height: 100px;">
-        <h3 class="d-inline-block align-middle mt-0 mb-0 font-weight-bold" style="">Competitive research funds</h3>
-      </div>
-      <p class="m-0">現在/過去の競争的獲得資金</p>
+      <p class="stats_value">{{ stats_grant }}</p>
     </div>
-    <div class="col-lg-3 col-sm-6 position-relative">
+    <div class="stats_content">
+      <p>Competitive research funds</p>
+    </div>
+  </div>
+  <div class="stats_column">
+    <div class="stats_content">
       {% assign stats_event = site.data.events | size %}
-      <div class="position-absolute m-auto" style="left: 0; right: 0; z-index: -1;">
-        <p class="m-auto text-black-50 font-weight-bold" style="line-height: 1; font-size: 120px;">{{ stats_event }}</p>
-      </div>
-      <div class="" style="height: 100px; line-height: 100px;">
-        <h3 class="d-inline-block align-middle mt-0 mb-0 font-weight-bold" style="">Workshop and Symposium</h3>
-      </div>
-      <p class="m-0">ワークショップやシンポジウムの開催</p>
+      <p class="stats_value">{{ stats_event }}</p>
+    </div>
+    <div class="stats_content">
+      <p>Workshop, Symposium</p>
     </div>
   </div>
 </div>

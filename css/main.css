@@ -48,6 +48,13 @@ td{
 	margin: auto;
 }
 
+@media (max-width: 550px) {
+	.wrapper_half{
+		width: calc(100% - 20px);
+		padding: 0 10px;
+	}
+}
+
 
 
 /*nav*/
@@ -281,6 +288,12 @@ nav a.active{
 	font-size: 32px;
 	display: inline-block;
 	margin: 40px 0 100px 0;
+}
+
+@media (max-width: 550px) {
+	.page_title h1{
+		margin: 20px 0;
+	}
 }
 
 .page h2{

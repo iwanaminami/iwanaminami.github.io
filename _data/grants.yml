@@ -1,6 +1,7 @@
-- content: 日本学術振興会特別研究員奨励研究費？
+- type: 日本学術振興会特別研究員奨励費
   amount: 1,700,000円
-  title: なんとかなんとか
-  period: 2019年度-2020年度
+  title: 組織維持を担う細胞群個体群動態の理解と定量的データ解析
+  start: 2019-04-25
+  end: 2021-03-31
   manager: 岩波翔也
-  order: "1"
+  url: https://kaken.nii.ac.jp/ja/grant/KAKENHI-PROJECT-19J12319/

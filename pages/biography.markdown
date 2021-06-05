@@ -37,3 +37,35 @@ IWANAMI, Shoya, Ph.D.
 {{ info.department }}
 {: .bio_content}
 {% endfor %}
+
+
+## 競争的研究資金等
+
+<ol reversed>
+{% for grant in site.data.grants %}
+
+  <li>
+    <p>
+      {% if grant.url %}<a href="{{ grant.url }}">{% endif %}{{ grant.title }}{% if grant.url %}</a>{% endif %}<br>
+      {{ grant.type }}<br>
+      {{ grant.amount }}｜{{ grant.start | date: "%Y年%-m月" }} - {{ grant.end | date: "%Y年%-m月" }}｜代表者：{{ grant.manager }}
+    </p>
+  </li>
+
+{% endfor %}
+</ol>
+
+## 主催したシンポジウムなど
+
+<ol reversed>
+{% for event in site.data.events %}
+
+  <li>
+    <p>
+{% if event.website %}<a href = "{{ event.website }}">{% endif %}{{ event.name }}{% if event.website %}</a>{% endif %}<br>
+{% if event.start %}{{ event.start | date: "%Y年%-m月%-d日" }}{% if event.end %} - {{ event.end | date: "%Y年%-m月%-d日" }}{% endif %}{% endif %}
+    </p>
+  </li>
+
+{% endfor %}
+</ol>

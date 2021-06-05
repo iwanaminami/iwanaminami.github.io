@@ -5,6 +5,18 @@ title: Achievements
 list_reverse: true
 ---
 
+## Pre-prints
+
+<ol reversed>
+{% assign preprints = site.data.preprints | where: "published", "false" %}
+{% for article in preprints %}
+  <li>
+    <p>
+      <strong>{{ article.title }}</strong><br>{{ article.date | date:"%b %-d, %Y" }}<br><a href="{{ article.url }}">{{ article.url }}</a>
+    </p>
+  </li>
+{% endfor %}
+</ol>
 
 ## Publications
 

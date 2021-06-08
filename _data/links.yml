@@ -39,3 +39,21 @@
     url: https://jglobal.jst.go.jp/detail?JGLOBAL_ID=202001015465097756
   - name: ResearchGate
     url: https://www.researchgate.net/profile/Shoya-Iwanami
+
+- title: Workshop
+  links:
+  - name: 理論免疫学ワークショップ
+    url: https://workshop.theoreticalimmunology.jp
+
+- title: Others
+  links:
+  - name: 第27回日本数理生物学会年会ランチョンセミナー
+    url: https://luncheonbiomath.jimdofree.com/
+  - name: えこえぴワークショップ
+    url: https://ecoepi.jimdofree.com/
+  - name: 巌佐庸教授退官記念シンポジウム
+    url: https://yohiwasataikankinen.wixsite.com/symposium
+  - name: 稲葉寿教授還暦記念集会
+    url: https://inabakanreki.jimdofree.com/
+  - name: "第15回生物数学の理論とその応用 -次世代の数理科学への展開とその応用-"
+    url: https://tbmaxv.wixsite.com/home
